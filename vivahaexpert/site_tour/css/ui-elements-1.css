@@ -1,0 +1,456 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* SMALL BUTTONS */
+.button-small {
+	color: #ffffff !important;
+	font: bold 12px/18px Arial, Helvetica, sans-serif;
+	display: inline-block;
+	height: 17px;
+	margin: 0 1em 1em 15px;
+	padding: 5px 20px 5px 5px;
+	position: relative;
+	text-decoration: none !important;
+}
+.button-small span {
+	height: 27px;
+	left: -15px;
+	position: absolute;
+	top: 0;
+	width: 15px;
+}
+.button-small:hover {
+	text-decoration: none;
+}
+/* COLORS */
+
+
+.rounded-orange {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/rounded-buttons-right.png) no-repeat right -54px;
+	text-shadow: 0 1px 1px #9b5510;
+}
+.rounded-orange:hover {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/rounded-buttons-right.png) no-repeat right -81px;
+}
+.rounded-orange span {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/rounded-buttons-left.png) no-repeat left -54px;
+}
+.rounded-orange:hover span {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/rounded-buttons-left.png) no-repeat left -81px;
+}
+.square-orange {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/square-buttons-right.png) no-repeat right -54px;
+	text-shadow: 0 1px 1px #9b5510;
+}
+.square-orange:hover {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/square-buttons-right.png) no-repeat right -81px;
+}
+.square-orange span {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/square-buttons-left.png) no-repeat left -54px;
+}
+.square-orange:hover span {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/square-buttons-left.png) no-repeat left -81px;
+}
+/* ICON BUTTONS */
+
+
+.button-icon {
+	/*	text-shadow: 0 1px 1px #432600 !important; */
+	text-shadow: none;
+	color: #FFF !important;
+	display: inline-block;
+	height: 17px;
+	margin: 0 1em 1em 13px;
+	padding: 5px 20px 5px 0;
+	position: relative;
+	text-decoration: none !important;
+	background-image: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/rounded-buttons-right.png);
+	background-repeat: no-repeat;
+	background-position: right -54px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 18px;
+	font-weight: bold;
+	font-variant: normal;
+}
+.button-icon span {
+	height: 27px;
+	left: -13px;
+	position: absolute;
+	top: 0;
+	width: 13px;
+	background-image: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/rounded-buttons-left.png);
+	background-repeat: no-repeat;
+	background-position: left -54px;
+}
+.button-icon em {
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-right: 5px;
+}
+.button-icon:hover {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/rounded-buttons-right.png) no-repeat right -81px;
+}
+.button-icon:hover span {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/rounded-buttons-left.png) no-repeat left -81px;
+}
+.button-icon:hover {
+	text-decoration: none;
+}
+.icon-accept em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/accept.png) no-repeat top left;
+}
+.icon-add em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/add.png) no-repeat top left;
+}
+.icon-anchor em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/anchor.png) no-repeat top left;
+}
+.icon-cancel em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/cancel.png) no-repeat top left;
+}
+.icon-clock em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/clock.png) no-repeat top left;
+}
+.icon-coins em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/coins.png) no-repeat top left;
+}
+.icon-delete em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/delete.png) no-repeat top left;
+}
+.icon-heart em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/heart.png) no-repeat top left;
+}
+.icon-hourglass em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/hourglass.png) no-repeat top left;
+}
+.icon-house em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/house.png) no-repeat top left;
+}
+.icon-information em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/information.png) no-repeat top left;
+}
+.icon-lightbulb em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/lightbulb.png) no-repeat top left;
+}
+.icon-lightning em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/lightning.png) no-repeat top left;
+}
+.icon-lock em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/lock.png) no-repeat top left;
+}
+.icon-palette em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/palette.png) no-repeat top left;
+}
+.icon-refresh em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/refresh.png) no-repeat top left;
+}
+.icon-switch em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/switch.png) no-repeat top left;
+}
+.icon-asterisk em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/asterisk.png) no-repeat top left;
+}
+.icon-bell em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/bell.png) no-repeat top left;
+}
+.icon-bomb em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/bomb.png) no-repeat top left;
+}
+.icon-bricks em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/bricks.png) no-repeat top left;
+}
+.icon-briefcase em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/briefcase.png) no-repeat top left;
+}
+.icon-cake em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/cake.png) no-repeat top left;
+}
+.icon-color em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/color.png) no-repeat top left;
+}
+.icon-disconnect em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/disconnect.png) no-repeat top left;
+}
+.icon-door em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/door.png) no-repeat top left;
+}
+.icon-emoticon em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/emoticon.png) no-repeat top left;
+}
+.icon-feed em {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/feed.png) no-repeat top left;
+}
+/* DDNotification */
+.ddnotification {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	color: #ffffff;
+	display: block;
+	font: normal 12px/18px Arial, Helvetica, sans-serif;
+	margin: 1em 0;
+	padding: 30px 30px 30px 90px;
+	position: relative;
+}
+.ddnotification span.icon {
+	height: 37px;
+	left: 30px;
+	position: absolute;
+	top: 30px;
+	width: 36px;
+}
+.ddnotification span.close {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/notifications/close.png) no-repeat top left;
+	cursor: pointer;
+	height: 13px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 13px;
+}
+.notification-error {
+	background: #c02424 url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/notifications/error.gif) repeat-x top left;
+	border: 1px solid #a01515;
+	text-shadow: 0 1px 1px #6f1111;
+}
+.notification-error span.icon {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/notifications/error-icon.png) no-repeat top left;
+}
+.notification-success {
+	background: #6ba623 url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/notifications/success.gif) repeat-x top left;
+	border: 1px solid #6e8a19;
+	text-shadow: 0 1px 1px #2d4103;
+}
+.notification-success span.icon {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/notifications/success-icon.png) no-repeat top left;
+}
+.notification-info {
+	background: #1d86af url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/notifications/info.gif) repeat-x top left;
+	border: 1px solid #317d9b;
+	text-shadow: 0 1px 1px #064353;
+}
+.notification-info span.icon {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/notifications/info-icon.png) no-repeat top left;
+}
+.notification-alert {
+	background: #e77414 url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/notifications/alert.gif) repeat-x top left;
+	border: 1px solid #be7125;
+	text-shadow: 0 1px 1px #6e3d05;
+}
+.notification-alert span.icon {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/notifications/alert-icon.png) no-repeat top left;
+}
+.notification-standard {
+	background: #d7d7d7 url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/notifications/standard.gif) repeat-x top left;
+	border: 1px solid #bababa;
+	text-shadow: 0 1px 1px #ffffff;
+	color: #464646 !important;
+}
+.notification-standard span.icon {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/notifications/standard-icon.png) no-repeat top left;
+}
+.notification-standard span.close {
+	background: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/notifications/close.png) no-repeat bottom left;
+}
+/* LISTS */
+
+.ddlist {
+	list-style: none;
+	padding: 0;
+}
+.list-BW, .list-arrow, .list-hot, .list-tick, .list-star, .list-clip, .list-black, .list-blue, .list-red, .list-green, .list-yellow, .list-purple, .list-orange, .list-pink, .list-lock {
+	list-style: none;
+	padding: 0;
+}
+.list-arrow li {
+	background:url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/bullet_arrow.png) no-repeat left 7px;
+	padding: 2px 0 2px 15px;
+}
+.list-tick li {
+	background:url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/bullet-tick.png) no-repeat left 5px;
+	padding: 2px 0 2px 20px;
+}
+.list-yellow li {
+	background:url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/bullet_yellow.png) no-repeat left 8px;
+	padding: 2px 0 2px 15px;
+}
+.list-orange li {
+	background:url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/bullet_orange.png) no-repeat left 8px;
+	padding: 2px 0 2px 15px;
+}
+.list-pink li {
+	background:url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/bullet_pink.png) no-repeat left 8px;
+	padding: 2px 0 2px 15px;
+}
+.list-lock li {
+	padding-top: 4px;
+	padding-right: 0;
+	padding-bottom: 4px;
+	padding-left: 20px;
+	background-image: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/lock16.png);
+	background-repeat: no-repeat;
+	background-position: left 8px;
+}
+.list-arrow2 li {
+	padding: 2px 0 2px 20px;
+	background-image: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/icons/arrow_black.png);
+	background-repeat: no-repeat;
+	background-position: left 8px;
+}
+/* PREFORMATTED STYLE - FOR SHOWING HTML CODE  */
+pre, xmp {
+	position: relative;
+	z-index: 50;
+	background: white url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/pre_bg.gif) top left repeat;
+	border: 1px solid #999;
+	color: black;
+	display: block;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 13px;
+	line-height: 18px;
+	margin: 10px 0 20px;
+	overflow: auto;
+	padding: 18px 10px 17px;
+	overflow-x: scroll;
+}
+/* WRAPPER - COVERING WITH ROUNDED BORDERS - we use Table(3X3) for WRAPPERS  */
+table.wrapper1 {
+	width: 100%;
+}
+table.wrapper1 td.td11, table.wrapper1 td.td12, table.wrapper1 td.td13, table.wrapper1 td.td31, table.wrapper1 td.td32, table.wrapper1 td.td33 {
+	background-image: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/UI_elements/wrapper1_h.png);
+}
+table.wrapper1 td.td21, table.wrapper1 td.td23 {
+	background-image: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/UI_elements/wrapper1_v.png);
+}
+table.wrapper1 td.td11 {
+	height: 12px;
+	width: 12px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	line-height: 1px;
+	font-size: 1px;
+}
+table.wrapper1 td.td12 {
+	height: 12px;
+	background-repeat: repeat-x;
+	background-position: 0px -18px;
+}
+table.wrapper1 td.td13 {
+	height: 12px;
+	background-repeat: no-repeat;
+	background-position: 0px -36px;
+	width: 12px;
+}
+table.wrapper1 td.td21 {
+	height: 12px;
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	width: 12px;
+}
+table.wrapper1 td.td23 {
+	height: 12px;
+	background-repeat: repeat-y;
+	background-position: -20px 0px;
+	width: 12px;
+}
+table.wrapper1 td.td31 {
+	height: 12px;
+	background-repeat: no-repeat;
+	background-position: 0px -73px;
+	width: 12px;
+}
+table.wrapper1 td.td32 {
+	height: 12px;
+	background-repeat: repeat-x;
+	background-position: 0px -55px;
+}
+table.wrapper1 td.td33 {
+	height: 12px;
+	background-repeat: repeat-x;
+	background-position: 0px -88px;
+	width: 12px;
+}
+/* WRAPPER - COVERING WITH ROUNDED BORDERS - we use Table(3X3) for WRAPPERS  */
+table.wrapper2 {
+	width: 100%;
+}
+table.wrapper2 td.td11, table.wrapper2 td.td13, table.wrapper2 td.td31, table.wrapper2 td.td33 {
+	background-image: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/UI_elements/wrapper2.png);
+	background-repeat: no-repeat;
+}
+table.wrapper2 td.td12, table.wrapper2 td.td22, table.wrapper2 td.td32, table.wrapper2 td.td21, table.wrapper2 td.td23 {
+	background-color:#fff9f1;
+}
+table.wrapper2 td.td11 {
+	height: 6px;
+	width: 6px;
+	background-position: 0px 0px;
+	line-height: 1px;
+	font-size: 1px;
+}
+table.wrapper2 td.td12 {
+	height: 6px;
+}
+table.wrapper2 td.td13 {
+	height: 6px;
+	background-position: 0px -15px;
+	width: 6px;
+}
+table.wrapper2 td.td21 {
+	height: 6px;
+	width: 6px;
+}
+table.wrapper2 td.td23 {
+	height: 6px;
+	width: 6px;
+}
+table.wrapper2 td.td31 {
+	height: 6px;
+	background-position: 0px -45px;
+	width: 6px;
+}
+table.wrapper2 td.td32 {
+	height: 6px;
+}
+table.wrapper2 td.td33 {
+	height: 6px;
+	background-position: 0px -30px;
+	width: 6px;
+}
+input.rounded-textbox1 {
+	color: #833a43;
+	font-size: 11px;
+	background-image: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/UI_elements/rounded_textbox_1.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 25px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: transparent;
+	padding-right: 5px;
+	padding-left: 5px;
+	line-height: 25px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+label.rounded-textbox1 {
+	background-image: url(http://www.maxwebdesign.asia/demo/numinousmatch/site_tour/images/UI_elements/rounded_textbox_1.png);
+	background-repeat: no-repeat;
+	background-position: 100% -35px;
+	height: 25px;
+	float: left;
+	display: block;
+	overflow: hidden;
+	width: auto;
+	padding-right: 6px;
+}

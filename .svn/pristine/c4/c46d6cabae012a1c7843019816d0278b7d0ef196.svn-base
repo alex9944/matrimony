@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* CSS for Labels (font coloring) */
+.brown {
+	color: #833a43;
+}
+.gray {
+	color: #b7a088;
+}
+.pink {
+	color: #a50050;
+}
+.black {
+}
+.img_whiteBorder {
+	border: 2px solid #FFF;
+}
+.size12 {
+	font-size: 12px;
+}
+.size11 {
+	font-size: 11px;
+}
+.size10 {
+	font-size: 11px;
+}
+.margin10 {
+	padding-top: 10px;
+}
+
+a {
+	color: #a50050;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a.link {
+	background-image: url(../images/arrow_pink.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	text-decoration: none;
+	padding-right: 12px;
+}
+.clear {
+	clear: both;
+}
+.block {
+	display: block;
+}
+.bold {
+	font-weight: bold;
+}
+.overflow_auto {
+	overflow: auto;
+	height: auto;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.clear_left {
+	clear: left;
+}
+.clear_right {
+	clear: right;
+}
+a.link:hover {
+	background-image: url(../images/arrow_pink.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	text-decoration: underline;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+h1, h2, h3 {
+	font-weight:normal;
+}
+h1 {
+	font-size: 18px;
+	color: #a50050;
+}
+h2 {
+	font-size: 16px;
+	color: #a50050;
+}
+h3 {
+	font-size: 14px;
+}
+.width_100 {
+	width: 100%;
+}
+.hline2 {
+	background-image: url(../images/hline1_doted.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+.hline3 {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #ffe0c4;
+}
+.hline4 {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+}
+input {
+	font-size: 11px;
+	border: 1px solid #d9d9d9;
+	height: 21px;
+	outline:none;
+}
+input.focus {
+	outline:none;
+}
+#inner_right .textbox1 {
+	height: 18px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#inner_right .textbox1:focus {
+	border: 1px solid #ffe0c4;
+}
+table.padding_5p tr td {
+	padding-top: 3px;
+	padding-right: 1px;
+	padding-bottom: 3px;
+	padding-left: 1px;
+}
+table.table_srch {
+	padding: 10px;
+	width: 100%;
+	border: 1px dotted #999;
+	float: none;
+	height: 200px;
+}
+table.tbl_srch td {
+	margin: 20px;
+}
+
+table.table_srch tr td {
+	padding: 10px;
+}
+select {
+	font-size: 11px;
+	border: 1px solid #d9d9d9;
+	outline:none;
+}
+textarea {
+	font-size: 11px;
+	border: 1px solid #d9d9d9;
+	outline:none;
+}

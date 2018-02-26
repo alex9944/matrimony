@@ -1,0 +1,252 @@
+<HTML>
+<HEAD>
+<TITLE>Horoscope </TITLE>
+<script language="javascript">function cleardis(){document.getElementById("dis").innerHTML="<font size=1><font face=Verdana, Arial, Helvetica, sans-serif><b>Disclaimer:</b> All astrological calculations are based purely on scientific equations and not on any specific published almanac.  Therefore we shall not be responsible for decisions that may be taken by anyone based on this report.</font>";	window.print();}</script>
+</HEAD>
+<BODY  marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" bgcolor="#FFFFFF">
+<td height="39"><div align="right"></div></td>
+<table border="2" cellpadding="0" cellspacing="0" style="border-width: 5px; border-color: #94291f; border-style: solid;" width="610" bgcolor="#FFFFFF" height="100%">
+  <tr>
+    <td valign="top" height="838"><table width ="100%" border="0" height="694">
+        <tr>
+          <td height="38" width="80%" align="center" style="font-family:verdana;font-size:12px;">
+		  	<div align="right">
+              <table cellspacing=0 cellpadding=0 border=0 width="650" align="center">
+                <tbody>
+                  <tr>
+                    <td bgcolor=#ffffff rowspan=2></td>
+                    <td align=right rowspan="2" bgcolor=#ffffff height="35" width=562 valign="bottom">
+						<div align="right">
+							<font size="3"><a href="javascript:;" onClick="cleardis();"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#94663E">Print</font></a>
+							<font face="Verdana, Arial, Helvetica, sans-serif" size="1">| <a href=javascript:; onClick=document.execCommand("SaveAs","1","Horoscope.html");return false; >
+							<font color="#94663E">Save</font></a> | <a href="http://rep.clickastro.com/downloadfonts.html" target="_blank" >
+							<font color="#94663E">DownloadFonts</font></a> | <a href="javascript: window.close();">
+							<font color="#94663E">Close</font></a></font></font>
+						</div>
+					</td>
+                  </tr>
+                  <tr> </tr>
+                </tbody>
+              </table>
+            </div></td>
+        </tr>
+        <tr>
+          <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/top-bg.gif) repeat-x left top; height:22px; font-family:verdana; font-size:11px; color:#fff1c8; text-align:center; font-weight:bold; vertical-align:middle;">Horoscope of gayathri menon</td>
+        </tr>
+        <tr>
+          <td width="80%" height="760" valign="top"><table align="center" cellpadding="0" cellspacing="2"  bgcolor=#Ffffff height="286" width="650" >
+              <tr>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg.gif) repeat-x left top; height:20px; font-family:verdana; font-size:11px; color:#990000; padding-left:30px; font-weight:bold;">Name</td>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg1.gif) repeat-x left top; height:21px; font-family:verdana; font-size:11px; color:#000000; padding-left:30px;">gayathri menon</td>
+              </tr>
+			  <tr>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg.gif) repeat-x left top; height:20px; font-family:verdana; font-size:11px; color:#990000; padding-left:30px; font-weight:bold;">Sex</td>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg1.gif) repeat-x left top; height:21px; font-family:verdana; font-size:11px; color:#000000; padding-left:30px;"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Female</font></td>
+              </tr>
+			  <tr>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg.gif) repeat-x left top; height:20px; font-family:verdana; font-size:11px; color:#990000; padding-left:30px; font-weight:bold;">Date of Birth</td>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg1.gif) repeat-x left top; height:21px; font-family:verdana; font-size:11px; color:#000000; padding-left:30px;">1 March 1985,Friday</td>
+              </tr>
+			  <tr>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg.gif) repeat-x left top; height:20px; font-family:verdana; font-size:11px; color:#990000; padding-left:30px; font-weight:bold;">Time of Birth (Hr.Min.Sec)</td>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg1.gif) repeat-x left top; height:21px; font-family:verdana; font-size:11px; color:#000000; padding-left:30px;">12:00:00 am , Standard Time</td>
+              </tr>
+			  <tr>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg.gif) repeat-x left top; height:20px; font-family:verdana; font-size:11px; color:#990000; padding-left:30px; font-weight:bold;">Time Zone (Hrs.Mins)</td>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg1.gif) repeat-x left top; height:21px; font-family:verdana; font-size:11px; color:#000000; padding-left:30px;">05:30  East of Greenwich</td>
+              </tr>
+			  <tr>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg.gif) repeat-x left top; height:20px; font-family:verdana; font-size:11px; color:#990000; padding-left:30px; font-weight:bold;">Time Correction</td>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg1.gif) repeat-x left top; height:21px; font-family:verdana; font-size:11px; color:#000000; padding-left:30px;">Standard Time</td>
+              </tr>
+			  <tr>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg.gif) repeat-x left top; height:20px; font-family:verdana; font-size:11px; color:#990000; padding-left:30px; font-weight:bold;">Place of Birth</td>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg1.gif) repeat-x left top; height:21px; font-family:verdana; font-size:11px; color:#000000; padding-left:30px;"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Madurai</font></td>
+              </tr>
+			  <tr>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg.gif) repeat-x left top; height:20px; font-family:verdana; font-size:11px; color:#990000; padding-left:30px; font-weight:bold;">Ayanamsa</td>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg1.gif) repeat-x left top; height:21px; font-family:verdana; font-size:11px; color:#000000; padding-left:30px;"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Chitra Paksha</font></td>
+              </tr>
+			  <tr>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg.gif) repeat-x left top; height:20px; font-family:verdana; font-size:11px; color:#990000; padding-left:30px; font-weight:bold;">Birth Star</td>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg1.gif) repeat-x left top; height:21px; font-family:verdana; font-size:11px; color:#000000; padding-left:30px;">Mrigasira</td>
+              </tr>
+			  <tr>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg.gif) repeat-x left top; height:20px; font-family:verdana; font-size:11px; color:#990000; padding-left:30px; font-weight:bold;">Star Pada (Quarter)</td>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg1.gif) repeat-x left top; height:21px; font-family:verdana; font-size:11px; color:#000000; padding-left:30px;">1</td>
+              </tr>
+			  <tr>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg.gif) repeat-x left top; height:20px; font-family:verdana; font-size:11px; color:#990000; padding-left:30px; font-weight:bold;">Birth Rasi</td>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg1.gif) repeat-x left top; height:21px; font-family:verdana; font-size:11px; color:#000000; padding-left:30px;">Edavam</td>
+              </tr>
+			  <tr>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg.gif) repeat-x left top; height:20px; font-family:verdana; font-size:11px; color:#990000; padding-left:30px; font-weight:bold;">Lagna (Ascendant)</td>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg1.gif) repeat-x left top; height:21px; font-family:verdana; font-size:11px; color:#000000; padding-left:30px;">Vrischika</td>
+              </tr>
+			  <tr>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg.gif) repeat-x left top; height:20px; font-family:verdana; font-size:11px; color:#990000; padding-left:30px; font-weight:bold;">Lagna Lord</td>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg1.gif) repeat-x left top; height:21px; font-family:verdana; font-size:11px; color:#000000; padding-left:30px;">Mars</td>
+              </tr>
+			  <tr>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg.gif) repeat-x left top; height:20px; font-family:verdana; font-size:11px; color:#990000; padding-left:30px; font-weight:bold;">Thidhi (Lunar Day)</td>
+                <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/bg1.gif) repeat-x left top; height:21px; font-family:verdana; font-size:11px; color:#000000; padding-left:30px;">Navami, Suklapaksha</td>
+              </tr> 
+			  <tr>
+			  	<td style="height:10px;"></td>
+				</tr>             
+            </table>
+            <div align="left">
+              <table width="650" align="center" cellpadding="0" cellspacing="2"  bgcolor=#Ffffff >
+                <tr bgcolor="#E0EA8A">
+                  <td width="50%" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/top-bg.gif) repeat-x left top; height:22px; font-family:verdana; font-size:11px; color:#fff1c8; text-align:center; font-weight:bold; vertical-align:middle;">Nirayana Longitudes of Planets</td>
+                </tr>
+                <tr bgcolor="#ffffff">
+                  <td style="padding-left:30px" height="60"><p ><font face="Verdana, Arial, Helvetica, sans-serif" size="1">The Indian system of Astrology is based on the Nirayana Longitude of planets, which is obtained by subtracting the ayanamsa value from the Sayan longitudes, calculated as per western system.
+				  	<br>There are different basis for calculating ayanamsa.<br>The method selected here is :  Chitra Paksha = 023:38:46</font></p></td>
+                </tr>
+              </table>
+            </div>
+            <div align="center">
+              <table width="650" border="0" align="center" height="220" cellspacing="2" >
+                <tr style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/top-bg.gif) repeat-x left top; height:22px; font-family:verdana; font-size:11px; color:#fff1c8; text-align:center; font-weight:bold; vertical-align:middle;">
+                  <td style="padding-left:10px; font-family:verdana; font-size:10px; color:#fff1c8; font-weight:bold; height:22px; width:0px;">Planet</td>
+				  <td style="padding-left:10px; font-family:verdana; font-size:10px; color:#fff1c8; font-weight:bold; height:22px; width:0px;">Longitude</td>
+				  <td style="padding-left:10px; font-family:verdana; font-size:10px; color:#fff1c8; font-weight:bold; height:22px; width:0px;">Rasi</td>
+				  <td style="padding-left:10px; font-family:verdana; font-size:10px; color:#fff1c8; font-weight:bold; height:22px; width:0px;">Longitude in Rasi</td>
+				  <td style="padding-left:10px; font-family:verdana; font-size:10px; color:#fff1c8; font-weight:bold; height:22px; width:0px;">Retrograde</td>
+				  <td style="padding-left:10px; font-family:verdana; font-size:10px; color:#fff1c8; font-weight:bold; height:22px; width:0px;">Star</td>
+				  <td style="padding-left:10px; font-family:verdana; font-size:10px; color:#fff1c8; font-weight:bold; height:22px; width:0px;">Quarter</td>
+                </tr>
+                <tr>
+                  <td width="0%"  bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Lagnam</font></td>
+                  <td width="14%"  bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">217:02:00 </font></td>
+                  <td width="13%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Vrischika </font></td>
+                  <td width="19%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">007:02:00</font></td>
+                  <td width="17%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> </font></td>
+                  <td width="22%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Anuradha</font></td>
+                  <td width="12%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">2 </font></div></td>
+                </tr>
+                <tr>
+                  <td width="0%"  bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Moon</font></td>
+                  <td width="14%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">055:20:34 </font></td>
+                  <td width="13%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Edavam </font></td>
+                  <td width="19%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">025:20:34</font></td>
+                  <td width="17%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> </font></td>
+                  <td width="22%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Mrigasira</font></td>
+                  <td width="12%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">1 </font></div></td>
+                </tr>
+                <tr>
+                  <td width="0%"  bgcolor=#fff9e6 style="padding-left:10px" align="left" height="9"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Sun</font></td>
+                  <td width="14%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="9"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">316:29:14 </font></td>
+                  <td width="13%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="9"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Kumba</font></td>
+                  <td width="19%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="9"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">016:29:14 </font></td>
+                  <td width="17%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="9"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> </font></td>
+                  <td width="22%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="9"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Satabhisha</font></td>
+                  <td width="12%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="9"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">3 </font></div></td>
+                </tr>
+                <tr>
+                  <td width="0%"  bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Mercury</font></td>
+                  <td width="14%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">324:44:11 </font></td>
+                  <td width="13%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Kumba</font></td>
+                  <td width="19%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">024:44:11 </font></td>
+                  <td width="17%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> </font></td>
+                  <td width="22%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Purvabhadra</font></td>
+                  <td width="12%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">2 </font></div></td>
+                </tr>
+                <tr>
+                  <td width="0%"  bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Venus</font></td>
+                  <td width="14%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">355:31:53 </font></td>
+                  <td width="13%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Meena</font></td>
+                  <td width="19%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">025:31:53</font></td>
+                  <td width="17%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> </font></td>
+                  <td width="22%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Revati</font></td>
+                  <td width="12%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">3 </font></div></td>
+                </tr>
+                <tr>
+                  <td width="0%"  bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Mars</font></td>
+                  <td width="14%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">355:47:50 </font></td>
+                  <td width="13%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Meena</font></td>
+                  <td width="19%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">025:47:50 </font></td>
+                  <td width="17%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> </font></td>
+                  <td width="22%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Revati</font></td>
+                  <td width="12%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">3 </font></div></td>
+                </tr>
+                <tr>
+                  <td width="0%"  bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Jupiter</font></td>
+                  <td width="14%"  bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">281:16:49 </font></td>
+                  <td width="13%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Makara</font></td>
+                  <td width="19%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">011:16:49 </font></td>
+                  <td width="17%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> </font></td>
+                  <td width="22%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Shravana</font></td>
+                  <td width="12%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">1 </font></div></td>
+                </tr>
+                <tr>
+                  <td width="0%"  bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Saturn</font></td>
+                  <td width="14%"  bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">214:26:31 </font></td>
+                  <td width="13%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Vrischika</font></td>
+                  <td width="19%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">004:26:31 </font></td>
+                  <td width="17%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> </font></td>
+                  <td width="22%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Anuradha</font></td>
+                  <td width="12%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">1 </font></div></td>
+                </tr>
+                <tr>
+                  <td width="0%"  bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Rahu</font></td>
+                  <td width="14%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">028:23:33 </font></td>
+                  <td width="13%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Medam</font></td>
+                  <td width="19%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">028:23:33 </font></td>
+                  <td width="17%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> </font></td>
+                  <td width="22%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Krittika</font></td>
+                  <td width="12%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">1 </font></div></td>
+                </tr>
+                <tr>
+                  <td width="0%"  bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Ketu</font></td>
+                  <td width="14%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">208:23:33 </font></td>
+                  <td width="13%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Tula</font></td>
+                  <td width="19%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">028:23:33 </font></td>
+                  <td width="17%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> </font></td>
+                  <td width="22%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Vishakha</font></td>
+                  <td width="12%" bgcolor=#ffffff style="padding-left:10px" align="left" height="14"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">3 </font></div></td>
+                </tr>
+                <tr>
+                  <td width="0%"  bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Gulikan</font></td>
+                  <td width="14%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">264:50:25 </font></td>
+                  <td width="13%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Dhanu</font></td>
+                  <td width="19%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">024:50:25 </font></td>
+                  <td width="17%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> </font></td>
+                  <td width="22%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Purvashada</font></td>
+                  <td width="12%" bgcolor=#fff9e6 style="padding-left:10px" align="left" height="14"><div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">4 </font></div></td>
+                </tr>
+              </table>
+            </div>
+            <DIV style="page-break-after:always"></DIV>
+            <div align="center">
+              <table width="650" border="0" cellspacing="1" cellpadding="1" style="background:url(http://rep.clickastro.com/MHDLL/MHDATA/kkimages/top-bg.gif) repeat-x left top; height:22px; font-family:verdana; font-size:11px; color:#fff1c8; text-align:center; font-weight:bold; vertical-align:middle;">
+                <tr >
+                  <td width="285" height="21" style="color:#fff1c8; font-family:verdana; font-size:11px; font-weight:bold; text-align:center; ">Rasi</b></td>
+				  <td width="306" height="21" style="color:#fff1c8; font-family:verdana; font-size:11px; font-weight:bold; text-align:center; ">Navamsa</b></td>
+                </tr>
+				<tr>
+					<td style="height:10px;"></td>
+				</tr>
+                <tr>
+                  <td width="285"><div align="center"><img src="http://www.maxwebdesign.asia/demo/numinousmatch/Reports/NM57653RASIENG_10032014_104547.jpg"></div></td>
+                  <td width="285"><div align="center"><img src="http://www.maxwebdesign.asia/demo/numinousmatch/Reports/NM57653NAVAMSAENG_10032014_104547.jpg"></div></td>
+                </tr>
+              </table>
+            </div>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Dasa balance at birth = Mars 5  years, 11  months, 10  days.  </font></p>
+            <div id="dis">
+              <table width="650" border="1" cellspacing="0" cellpadding="3" bordercolor="gray" align="center" style="border-collapse:collapse;">
+                <tr>
+                  <td><font size="1"><b><font face="Verdana, Arial, Helvetica, sans-serif">Disclaimer</font></b><font face="Verdana, Arial, Helvetica, sans-serif">:                     
+                    This report is an independent work of Astro-Vision Futuretech Pvt. Ltd. and is broadly based on the principles of Indian Astrology. <br>ASTRO-VISION astrological calculations are based on scientific equations and not on any specific published almanac. Therefore, comparisons between the calculations made by ASTRO-VISION and those published in almanacs are absolutely unwarranted. Astro-Vision Futuretech Pvt. Ltd. shall not entertain any dispute on differences arising out of such comparisons nor can it be held responsible for the decisions that may be taken by anyone based on this report. <br>While Astro-Vision ensures that each report is prepared meticulously and with utmost care, it does not rule out the possibility of any unexpected errors. In case of any such errors Astro-Vision`s liability is limited to the extend of replacement of the report with a rectified one. <br>CHITRAPAKSHA AYANAMSA has been used for all the calculations as it is the most popular and widely used ayanamsa system in India. The astrological calculations may differ in case a different ayanamsa is used. There are minor variations in the chart formats and the names of stars and planets followed by different regions of India and some of these variations have been accommodated in the regional language versions. As a result, the reports generated in different languages may not appear the same.  </font></font></td>
+                </tr>
+              </table>
+            </div>
+            <p align="right"> <font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="gray">LSENG-Ver. 3.2-20140310<br></font> <a href="javascript:;" onClick="cleardis();"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#94663E">Print</font></a><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> | <a href=javascript:;onClick=document.execCommand("SaveAs","1","Horoscope.html");return false; ><font color="#94663E">Save</font></a> | <a href="http://rep.clickastro.com/downloadfonts.html" target="_blank" ><font color="#94663E">DownloadFonts</font></a> | <a href="javascript: window.close();"><font color="#94663E">Close</font></a></font></p></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</BODY>
+</HTML>

@@ -1,0 +1,3 @@
+P_id,User_id,P_category,P_subcategory,P_classtype,P_title,P_price,P_country,P_state,P_city,P_description,P_sdate,P_photo1,P_photo2,P_photo3,P_photo4,P_conname,P_conemail,P_conno,P_date,P_iam,P_status,P_hotlisting
+,1,9,73,1,Business testing1,0,324,,chennai,Business testing Business testing Business testing Business testing Business testing,,uploads/testerFlower Power1299156460.jpg,uploads/testerimg21299156595.jpg,,,tester,php.developer30@gmail.com,9876543210,3/3/2011,1,1,0
+,1,2,14,1,hire bike1,200,324,tamil nadu,adayar,testing testing testing testing testing testing testing,,uploads/testerwinter_background1299155479.jpg,,,,tester,php.developer30@gmail.com,9876543210,3/3/2011,1,1,0

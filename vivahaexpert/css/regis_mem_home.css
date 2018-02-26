@@ -1,0 +1,144 @@
+@charset "utf-8";
+.profiledetails {
+	font-size: 12px;
+	width: 100%
+}
+
+/* CSS Document */
+
+ul.checklist{
+	float:left;
+	list-style-type: none;
+	display: block;
+	clear: both;
+	overflow: auto;
+	width: 100%;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+.checklist li
+{
+	border: solid 1px #f9d6a5;
+	border-collapse:separate;
+	margin:5px;
+	float: left;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 23px;
+	display: block;
+	width: 23%;
+}.checklist li.prof_complete {
+	background-image: url(../images/icons/accept_16.png);
+	background-repeat: no-repeat;
+	background-position: 3px center;
+}
+.checklist li.prof_complete a {
+	color: #060;
+}
+
+.checklist li.prof_pending {
+	background-image: url(../images/icons/warning_16.png);
+	background-repeat: no-repeat;
+	background-position: 3px center;
+}
+.alerts {
+	display: block;
+	clear: both;
+	height: auto;
+	list-style-type: none;
+}
+.alerts li {
+	display: block;
+	clear: both;
+	border: 1px dotted #f9d6a5;
+	margin: 5px;
+	/*background-color: #fff6ea;*/
+}
+.alerts_nobg li {
+	display: block;
+	clear: both;
+	margin: 5px;
+	background-color: transparent;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_alerts {
+	background-image: url(../images/icons/icon_collection3.gif);
+	background-repeat: no-repeat;
+	background-position: 2px top;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	color: #666666;
+	display: block;
+}
+.alerts_email {
+	background-position: 2px 3px;
+	display: block;
+}
+.alerts_viewedPicture {
+	background-position: 2px -53px;
+	display: block;
+}
+.alerts_profileViewed {
+	background-position: 2px -150px;
+	display: block;
+}
+.alerts_blocklist {
+	background-position: 2px -245px;
+	display: block;
+}
+.alerts_pictReq {
+	background-position: 2px -85px;
+}
+.alerts_pictReqSend {
+	background-position: 2px -118px;
+}
+.alerts_membCont {
+	background-position: 2px -214px;
+}
+.alerts_contMemb {
+	background-position: 2px -182px;
+}
+.alerts_expIntr {
+	background-position: 2px -305px;
+}
+.alerts_expIntrAccept {
+	background-position: 2px -337px;
+}
+
+.alerts_expIntrSend {
+	background-position: 2px -277px;
+}
+.alerts_expIntrPending {
+	background-position: 2px -365px;
+}
+.alerts_expIntrDeclined {
+	background-position: 2px -395px;
+}
+
+.clsHoroscope
+{
+ background-image:url("../images/icons/icon_collection2.png");
+ background-repeat:no-repeat;
+ color:#666666;
+ height:30px;
+ background-position:3px -403px;
+ float: left;
+    height: 31px;
+    line-height: 28px;
+    padding-left: 26px;
+    padding-right: 11px;
+}
+.clsHoroscope:hover
+{
+ background-color:none;
+ color:#666666;
+ text-decoration:underline;
+}

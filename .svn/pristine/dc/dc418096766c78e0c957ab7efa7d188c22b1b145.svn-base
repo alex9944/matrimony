@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #a2004e;
+	font-family: arial, tahoma;
+	font-size: 12px;
+	color: #252525;
+}
+#tour_wrapper {
+	width: 795px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#tour_top {
+	clear: both;
+	height: 29px;
+	background-image:
+	background-image: url(images/sitetour_top.png);
+	background-repeat: no-repeat;
+}
+#tour_mid {
+	background-image: url(images/sitetour_top_bg.png);
+	background-repeat: repeat-y;
+	clear: both;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#tour_bottom {
+	background-image: url(images/sitetour_bottom.png);
+	clear: both;
+	height: 29px;
+}
+#tour_box {
+	background-image: url(images/sitetour_gradient.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color: #fff8ed;
+	overflow:hidden;
+	display: block;
+	width: 746px;
+	clear: both;
+	position: relative;
+	height:550px;
+	
+	
+	
+}
+
+
+
+
+.pink{color: #A50050;}
+.gray{color: #252525;}
+
+h1, h2, h3, h4
+{
+font-family:Geneva, sans-serif;
+font-weight: bold;
+}
+table.table1
+{
+	width:746px;
+}
+table.table1 tr td{
+	padding:10px;}
+
+h1.title {
+color: #A50050;
+font-size:22px;
+text-decoration: none;
+}
+
+h2{font-size:18px;}
+h3{font-size:14px;}
+
+.smallitle {
+font-weight: bold;
+font-size:14px;
+text-decoration: none;
+}
+.padding10px{padding:10px;}
+.padding5px{padding:5px;}
+.center{text-align:center;}
+.img1
+{
+	border:solid 10px #fff;
+}
+.nofloat{float:none;}
+.floatLeft{float:left;}
+.floatRight{float:right;}
+.clear{clear:both;}
+.hide{display:none;}
+.slide {
+	float: left;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 550px;
+	visibility: visible;
+}
+table.nopadding tr td {
+	padding: 0px;
+	margin: 0px;
+}
+table.padding5 tr td {
+	padding: 5px;
+	margin: 0px;
+}

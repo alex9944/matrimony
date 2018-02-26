@@ -1,0 +1,1560 @@
+/* ram edited styles */
+termofuse
+{
+	padding:18px 18px 18px 18px;
+	border:#BBC6C6 solid;
+}
+
+/* OLX Main Stylesheet */
+body {
+background:#fff;
+font:12px/1.4 arial,helvetica,sans-serif;
+color:#000;
+margin-top:0
+}
+div#body {
+margin: 0 auto;
+}
+/* Clear fix from http://www.positioniseverything.net/easyclearing.html */
+.clearfix:after {
+content: "."; 
+display: block;
+height: 0; 
+clear: both; 
+visibility: hidden;
+font-size: 0;
+line-height: 0;
+}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+a {
+color: #00c;
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+form {
+margin: 0;
+padding: 0;
+}
+a img {
+border-width: 0;
+}
+table {
+font-size: 12px;
+text-align: left;
+}
+table[width="900"], table.resize {
+width: 980px;
+}
+input, select, textarea {
+font-family: Arial, Sans-Serif;
+font-size: 12px;
+}
+input.button, div.buttons input {
+vertical-align: middle;
+}
+hr {
+height: 1px;
+border-top: 1px solid #D4D4D4;
+border-bottom-width: 0;
+}
+
+/* amazing borders remake */
+.cbb {
+margin:0;
+padding:9px 5px;
+border:1px solid #ddd;
+background:#fff
+}
+/* Normal styling */
+.cb {margin: 0}
+.bt {
+height:10px;
+margin:0 0 0 10px;
+background:url(http://images01.olx.com/images/v4/sp-base.png) no-repeat 100% -40px;
+z-index:100;
+text-align:left
+}
+.bt div {
+position:relative;
+left:-10px;
+width:10px;
+height:10px;
+background:url(http://images01.olx.com/images/v4/sp-base.png) no-repeat 0 -40px;
+font-size:0;
+line-height:0
+}
+.bb {
+height:10px;
+margin:0 0 0 10px;
+background:url(http://images01.olx.com/images/v4/sp-base.png) no-repeat 100% -50px;
+z-index:100;
+text-align:left
+}
+.bb div {
+position:relative;
+left:-10px;
+width:10px;
+height:10px;
+background:url(http://images01.olx.com/images/v4/sp-base.png) no-repeat 0 -50px;
+font-size:0;
+line-height:0
+}
+.i1 {
+border-left:1px solid #ddd
+}
+.i2 {
+border-right:1px solid #ddd
+}
+.i3 {
+display:block;
+margin:-5px 0;
+padding:5px;
+position:relative
+}
+.i3:after {
+content:"."; 
+display:block; 
+height:0; 
+clear:both; 
+visibility:hidden
+}
+.i3 {display:inline-block}
+.i3 {display:block}
+* html .bt, * html .bt div, * html .bb, * html .bb div {
+background-image:url(http://images01.olx.com/images/v4/sp-base.gif)
+}
+
+h1 {
+border-bottom:1px solid #DDDDDD;
+font-family:Arial,Verdana,Sans-Serif;
+font-size:20px;
+font-weight:normal;
+margin:0;
+padding:5px 11px;
+text-align:left;
+}
+span.bullet {
+font-family: Tahoma, Arial, Sans-Serif;
+color: #a0a0a0;
+}
+
+div.box {
+padding:0 5px 0 0;
+background: #fff url(http://images02.olx.com/images/bx_border.gif) 100% 0 repeat-y;
+}
+div.box div.bi {
+padding: 0 0 0 5px;
+background: #fff url(http://images02.olx.com/images/bx_border.gif) 0 0 repeat-y;
+}
+div.box div.bt{
+height: 5px;
+margin: 0 -5px 0 0;
+background: url(http://images03.olx.com/images/bx_bk.gif) 100% 0 no-repeat;
+font-size: 1px;
+line-height: 1px;
+}
+div.box div.bt div{
+width: 6px;
+height: 5px;
+left:-5px;
+background: url(http://images03.olx.com/images/bx_bk.gif) 0 0 no-repeat;
+}
+div.box div.bb{
+height: 5px;
+margin: 0 -5px 0 0;
+background: url(http://images03.olx.com/images/bx_bk.gif) 100% 100% no-repeat;
+font-size: 1px;
+line-height: 1px;
+}
+div.box div.bb div{
+width: 6px;
+height: 5px;
+left:-5px;
+background: url(http://images03.olx.com/images/bx_bk.gif) 0 100% no-repeat;
+}
+div.box div.content {
+background-color: #fff;
+padding: 0;
+}
+div.box div.title {
+margin: 0;
+padding: 5px;
+background: url(http://images01.olx.com/images/bx_tit_bk.gif) repeat-x 0 0;
+border-bottom: 1px solid #e3e2e7;
+}
+div.box div.title p {
+margin: 0;
+}
+div.box div.title span.title {
+font-weight: bold;
+color: #2f2f2f;
+}
+/* <Path> */
+div#path {
+margin: 5px 5px 5px 10px;
+}
+div#path h1 {
+display: inline;
+padding: 0;
+color: #000;
+font-size: 12px;
+background-color: transparent;
+border-bottom:0
+}
+div#path span {
+font-family: Tahoma, Arial, Sans-Serif;
+color: #8d8d8d;
+}
+/* </Path> */
+/* Estilos para iframes */
+body.inside {
+background-color: #fff;
+font-size: 12px;
+padding: 0;
+margin: 0;
+}
+body.inside table {
+font-size: 12px;
+line-height: 17px;
+}
+body.inside input, body.inside select {
+font-size: 12px;
+}
+body.inside input.button {
+position: relative;
+top: -2px;
+}
+body.inside div.Line span, body.inside div.Line label {
+display: block;
+margin: 0 0 2px 0;
+}
+/* <Paginator> */
+div#paginator, div.paginator {
+/* background: url(http://images02.olx.com/images/pag_pts.gif) repeat left top; */
+text-align: center;
+padding: 4px 0 4px 0;
+margin: 0 5px 0 5px;
+}
+div#paginator a, div.paginator a, div#paginator span.actual-page {
+border-right: 1px solid #000;
+padding: 1px 5px 0 1px;
+outline: none;
+}
+div#paginator a:last-child, div#paginator span:last-child, div.paginator a:last-child, div.paginator span:last-child {
+border-width: 0;
+}
+div#paginator a.previous, div.paginator a.previous {
+background: url(http://images03.olx.com/images/pag_prev.gif) no-repeat left top;
+padding-left: 21px;
+}
+div#paginator a.next, div.paginator a.next {
+background: url(http://images04.olx.com/images/pag_next.gif) no-repeat right top;
+padding-right: 21px;
+border-width: 0;
+}
+div#paginator a.next:hover, div.paginator a.next:hover {
+background-position: right -50px;
+}
+div#paginator a.previous:hover, div.paginator a.previous:hover {
+background-position: left -50px;
+}
+div#paginator a:hover, div.paginator a:hover {
+text-decoration: none;
+}
+/* </Paginator> */
+body.text div.content {
+padding: 10px 420px 10px 30px;
+}
+body.text h2 {
+font-weight: normal;
+font-size: 16px;
+margin: 15px 0 0 0;
+padding: 0;
+}
+body.text p {
+margin: 0 0 15px 0;
+}
+body.text h2.o {
+color: #7A278E; 
+}
+body.text h2.l {
+color: #B9D400; 
+}
+body.text h2.x {
+color: #FF840E; 
+}
+div.sidebar {
+float: right;
+padding: 0;
+width: 250px;
+}
+.clearfix div.sidebar {
+padding: 8px 0 0 0;
+}
+table td div.sidebar {
+float: none;
+width: auto;
+}
+div.with_sidebar {
+margin: 0 250px 0 0;
+}
+
+div.footers{
+padding: 0 0 0 8px;
+margin: 10px 4px;
+background: url(http://images02.olx.com/images/bx_links_l.gif) top left no-repeat;
+}
+div.footers p.title{
+margin: 0 0 2px 0;
+padding: 0 22px 0 0;
+font-weight: bold;
+}
+div.footers div.single p.title {
+float: left;
+padding-top: 0;
+}
+div.footers div.content{
+margin: 0;
+padding: 8px 0 0 0;
+background: url(http://images04.olx.com/images/bx_links_r.gif) top right no-repeat;
+}
+div.footers ul {
+float: left;
+margin: 0;
+list-style-type: none;
+padding: 0 7px 0 4px;
+width: 237px;
+}
+div.footers ul.first {
+width: 230px;
+padding-left: 0;
+}
+div.footers ul.last {
+width: 210px; 
+}
+div.footers div.single ul {
+width: auto;
+border-right: 1px solid #d9d9d9;
+}
+div.footers div.single ul.last {
+border-width: 0;
+}
+div.footers div.aux {
+margin: 0 0 0 -8px;
+padding-left: 8px;
+background: url(http://images02.olx.com/images/bx_links_l.gif) bottom left no-repeat;
+}
+div.footers div.aux div {
+padding: 0 6px 8px 3px;
+background: url(http://images04.olx.com/images/bx_links_r.gif) bottom right no-repeat;
+}
+
+div#distance_div {
+}
+div#distance_selector {
+position: absolute;
+top: 120px;
+left: 225px;
+width: 337px;
+height: 205px;
+z-index: 100;
+background: url(http://images04.olx.com/images/distance_selector_bk.gif) no-repeat left bottom;
+color: #fff;
+}
+div#distance_selector div.Container {
+margin: 0 17px;
+padding: 8px 0;
+border-top: 1px solid #ddd;
+}
+div#distance_selector p.Title {
+background: url(http://images04.olx.com/images/distance_selector_bk.gif) no-repeat left top;
+}
+div#distance_selector p.Title[class] {
+background-image: url(http://images04.olx.com/images/distance_selector_bk.png);
+}
+div#distance_selector[id] {
+background-image: url(http://images04.olx.com/images/distance_selector_bk.png);
+}
+div#distance_selector div#track1-left {
+position: absolute;
+width: 2px;
+height: 12px;
+background: transparent url(http://images01.olx.com/images/slider_left.png) no-repeat top left;
+}
+div#distance_selector div#track1{
+background: transparent url(http://images02.olx.com/images/slider_right.png) no-repeat top right;
+width: 102px;
+height: 12px;
+}
+div#distance_selector div#handle1 {
+width: 11px;
+height: 12px;
+}
+div#distance_selector div#handle1 img {
+float: left;
+}
+div#distance_selector div#slider {
+margin: 4px 0 0 140px;
+padding: 1px 0 0 23px;
+background: url(http://images03.olx.com/images/slider_bk.png) no-repeat left top;
+}
+div#distance_selector p.Title {
+font-family: Tahoma, Verdana, Arial, Sans-Serif;
+margin: 0;
+padding: 7px 17px;
+}
+div#distance_selector p.Title a {
+float: right;
+color: #b9d400;
+}
+div#distance_selector div.Buttons {
+padding: 6px 0 0 0;
+text-align: center;
+}
+div#distance_selector div.Line {
+background-color: #2e2e2e;
+margin: 0 0 1px 0;
+padding: 7px 5px;
+/*width:100%;*/
+}
+div#distance_selector div.Line label {
+float: left;
+width: 135px;
+padding: 3px 5px 0 0;
+}
+div#distance_selector div.Line select {
+width: 145px;
+}
+div#distance_selector div.Line input {
+width: 140px;
+}
+div#distance_selector div.Line span.City {
+color: #d3d3d3;
+/* padding: 0 0 0 90px; */
+}
+div#distance_selector div.Line span.Distance {
+color: #ff840e;
+}
+div#distance_selector div.Line p {
+margin: 0;
+}
+div.autocomplete {
+width: auto !important;
+background: #fff;
+cursor: default;
+font-family: Arial, Sans-Serif;
+font-size: 12px;
+color: #000;
+z-index: 50;
+}
+div.autocomplete ul {
+border:1px solid #888;
+margin:0;
+padding:0;
+list-style-type:none;
+}
+div.autocomplete ul li {
+margin:0;
+padding:3px;
+white-space:nowrap;
+}
+div.autocomplete ul li.selected {
+background-color: #092569;
+color: #fff;
+}
+div.autocomplete ul strong.highlight {
+color: #800;
+margin:0;
+padding:0;
+}
+
+/* <popular searches> */
+div#popular_searches div#paginator span, div#popular_searches div#paginator del {
+border-right:1px solid #000;
+padding:1px 5px 0pt 2px;
+}
+div#popular_searches div#paginator span:last-child, div#popular_searches div#paginator del:last-child {
+border-width: 0;
+}
+div#popular_searches div#paginator span{
+font-weight:bold;
+}
+div#popular_searches div#paginator del {
+text-decoration: none;
+}
+
+div#popular_searches a:hover{
+color: orange;
+}
+div#popular_searches h2, 
+div#popular_searches h3, 
+div#popular_searches h4, 
+div#popular_searches h5,
+div#popular_searches h6, 
+div#popular_searches h7 {
+display: inline;
+color: #000;
+background-color: transparent;
+margin: 0 2px 0 0;
+}
+
+div#popular_searches h2 {
+font-size: 20px;
+line-height: 26px;
+}
+div#popular_searches h3 {
+font-size: 18px;
+line-height: 24px;
+}
+div#popular_searches h4 {
+font-size: 16px;
+line-height: 22px;
+}
+div#popular_searches h5 {
+font-size: 14px;
+line-height: 20px;
+}
+div#popular_searches h6 {
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+}
+div.categories ul {
+float:left;
+font-family:Tahoma,Arial,Sans-Serif;
+margin:0pt;
+overflow:hidden;
+padding:5px 8px;
+width:20%;
+}
+div.categories ul li {
+margin:0 0 1px;
+}
+div#popular_searches div#cloud {
+padding: 10px;
+text-align: justify;
+}
+div#popular_searches div.more {
+text-align:right;
+}
+/* </popular searches> */
+/* <header_keywords>*/
+p#header_keywords, h1#header_keywords{
+font-family: Tahoma, Arial,Sans-Serif;
+font-size: 11px;
+text-align: center;
+padding: 2px 0 2px 0;
+color: #bfbfbf;
+overflow: hidden;
+margin: 0 auto;
+width: 980px;
+height: 15px;
+border-bottom: none;
+}
+/*</header_keywords>*/
+
+/*Lost password form*/
+div#lostPasswordForm{margin-top:15px;}
+div#lostPasswordForm label{font-weight:bold;}
+div#lostPasswordForm .lostPassLeftLabel{margin-right:15px;float:left;}
+#page-lostPassword input{margin: 0 80px 5px 0;}
+#page-lostPassword .msg-error {clear: both;display: block;margin-bottom:15px;margin-left:84px;}
+div#passwordSentContainer{margin:15px 0 15px 15px;background-color:#E9E9E9;padding:15px 0 15px 15px;}
+div#passwordSentOlxButtonContainer{margin-left:52px;}
+.chooseStateDiv{color:#003; background-color:#fff; position:absolute; top:325px; left:220px; width:500px; height:200px; z-index:98;}
+.hidden{visibility:hidden;}
+.keyWords{ color: #04c;font-size: 11px;}
+.keyRelated{font-size: 11px;}
+tr.priority {
+display:none;
+}
+div.ramblerLogo{
+text-align: center;
+width:100%;
+clear:both
+}
+div.ramblerScript{
+display: none;
+}
+div.liveInternet{
+display: none;
+}
+.alert_link {
+background:#fff0b3 url(http://images02.olx.com/images/alerts_link.png) no-repeat 0 0;
+border:1px solid #fb0;
+font-size: 12px;
+font-family: Arial, Sans-Serif;
+padding: 7px 10px 7px 40px;
+margin: 8px 0;
+text-align: left;
+}
+.alert_link p {
+margin: 0;
+}
+.alert_link :link, .alert_link :visited, .alert_link :link:hover, .alert_link :visited:hover {
+font-weight: bold;
+}
+div#seotextblock{
+text-align: center;
+padding: 10px;
+}
+div#seotextblock p{
+margin: 0;
+}
+
+/*** Featureds Page ***/
+
+#featured-screenshots {
+height:343px;
+width: 600px;
+position:relative;
+background:transparent url(http://images03.olx.com/images/v4/bkg-feature-posting.jpg) no-repeat 0 0;
+background-position: left;
+left: 50px;
+top: 42px;
+}
+.featureds-listings, .featureds-home {
+background-image:none;
+position:absolute;
+color:#000;
+font-weight:bold;
+top:-36px;
+width:194px !important;
+height:auto !important;
+padding:0;
+margin:0 !important;
+text-align: center;
+}
+.featureds-listings {
+left:53px;
+}
+.featureds-home {
+left:352px;
+top:-19px;
+} 
+.static-page-container { padding: 0 0 30px; text-align: left;}
+.static-page-container h2 {
+margin:30px 0 10px;
+font-size:17px;
+width:700px;
+font-weight: bold;
+}
+.static-page-container h2 small {
+font-size:.6em
+}
+.static-page-container h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.static-page-container p {
+margin-bottom:1em;
+width:700px
+}
+.static-page-container .page-featureds ul {
+width:700px;
+*padding-left:15px;
+}
+.static-page-container li {
+margin-bottom:15px;
+list-style-position:outside;
+}
+/*** adbox ***/
+.adbox {
+background:#fff;
+}
+.topone {
+border-bottom:1px solid #ddd
+}
+.bottomone {
+border-top:1px solid #ddd
+}
+.adbox p {
+color:#777777;
+margin:0;
+padding:3px 5px;
+}
+.adbox iframe {
+margin-left:5px;
+width:98%;
+margin-bottom:5px
+}
+* html .adbox iframe {
+width:96%;
+}
+
+/*** new header ***/
+/* the header */
+#header {
+position:relative;
+height:90px;
+font-size:85%;
+text-align:left
+}
+#header .logoblack
+{
+font-size:1.1em !important;
+padding:0 !important;
+width:220px !important;
+position:absolute;
+text-align:center;
+top:0;
+height:70px;
+left:0;
+}
+#header .logoblack a.blackLogo {
+background:transparent url(http://images03.olx.com/images/h_logo_black.jpg) no-repeat scroll 0 0 !important;
+height:75px !important;
+margin:0 !important;
+top:-5px !important;
+width:220px !important;
+display:block;
+text-indent:-1000em;
+}
+#header div.logo a:hover, .region a:hover {
+border-bottom:0
+}
+#header h1, #userlocale {
+font-weight:normal;
+position:absolute;
+top:0;
+left:0;
+font-size:1.4em;
+line-height:1;
+}
+#locale-container { margin-left:250px; position: relative;}
+#userlocale span.localClassifieds{ float: left; margin: 5px 5px 0 0; }
+
+
+/* inner-header */
+#inner-header {
+position:relative;
+margin-left:240px;
+top:23px;
+background:#004C9D url(http://images02.olx.com/images/v4/bkgs.png) repeat-x 0 0;
+}
+* html #inner-header {
+background-image:url(http://images02.olx.com/images/v4/bkgs.gif)
+}
+#inner-header.cbb {
+padding:10px;
+border:0
+}
+#inner-header .i1, #inner-header.i2 {
+padding:0
+}
+#inner-header .bt {
+background-position:100% 0
+}
+#inner-header .bt div {
+background-position:0 0
+}
+#inner-header .bb {
+background-position:100% -10px
+}
+#inner-header .bb div {
+background-position:0 -10px
+}
+#inner-header .i1, #inner-header .i2 {
+border:0
+}
+#inner-header .i3 {
+padding:0 10px;
+margin:0 0 -3px;
+}
+body:nth-of-type(1) #inner-header .i3 {
+margin:0 0 -2px;
+}
+#inner-header form p {
+margin:0;
+}
+#header, #header * {
+zoom:1
+}
+/* levelpath */
+.region {
+position:relative;
+font-size:1.1em;
+line-height:1.1;
+padding:5px 12px;
+font-family:tahoma,arial,helvetica,sans-serif
+}
+.region strong {
+font-weight:normal
+}
+
+/* post-buttons */
+#header .post {
+float:right;
+position:relative;
+top:-1px;
+right:0;
+width:210px
+}
+.post * {
+text-align:left;
+z-index:10000;
+cursor:pointer
+}
+.post a {
+display:block;
+background:#F9761D url(http://images02.olx.com/images/v4/bkgs.png) repeat-x 0 -95px;
+color:#fff;
+font-weight:bold;
+font-size:1.2em;
+line-height:1
+}
+.post a:hover {
+background-color:#FF4002;
+background-position:0 -166px;
+text-decoration:none
+}
+* html .post a {
+background-image:url(http://images02.olx.com/images/v4/bkgs.gif)
+}
+#home-extras .post a {
+font-size:1em
+}
+.post a .cbb {
+display:block;
+padding:6px;
+background:transparent;
+border:0;
+text-align:center
+}
+.post .cb {
+background:transparent
+}
+.post .bt, .post .bt div, .post .bb, .post .bb div {
+height:5px
+}
+#header .post .bt {
+background-position:100% -60px
+}
+#header .post .bt div {
+background-position:-576px -60px
+}
+#header .post .bb {
+background-position:100% -65px
+}
+#header .post .bb div {
+background-position:-576px -65px
+}
+#home-extras .post .bt {
+background-position:100% -70px
+}
+#home-extras .post .bt div {
+background-position:-576px -70px
+}
+#home-extras .post .bb {
+background-position:100% -75px
+}
+#home-extras .post .bb div {
+background-position:-576px -75px
+}
+* html #header #inner-header .post a * {
+border:0
+}
+.post .i1, .post .i2 {
+border:0
+}
+.post .i3, #header .post .i3, #home-extras .post .i3 {
+text-align:center;
+padding:3px 0;
+margin:-1px 0 1px;
+margin-top:0\9
+}
+body:nth-of-type(1) #header .post .i3 {
+margin:-1px 0 1px;
+}
+#or {
+position:absolute;
+top:2px;
+right:226px;
+width:40px;
+text-align:center;
+font-size:1.35em;
+font-weight:bold;
+color:#fff
+}
+.cbb #or {
+top:12px
+}
+/* top-search */
+.s-box * {
+float:left;
+margin-right:3px
+}
+.search {
+left:0;
+position:relative;
+top:0;
+}
+.search * {
+vertical-align:middle !important
+}
+.search p.s-box {
+height:auto;
+line-height:normal;
+min-height:0
+}
+.search input.text {
+width:210px;/*
+font-size:1.5em;
+padding:3px 3px 2px*/
+font-size:1.25em;
+padding:4px 3px;
+padding-top:5px\9;
+padding-bottom:3px\9;
+line-height:1.1;
+border:1px solid #ddd;
+margin:0 3px 0 0;
+color:#7f7f7f;
+font-style:italic
+}
+.search select {
+height:auto;
+line-height:1.2;
+font-size:1.25em;
+border:0;
+margin:0;
+padding:0;
+width:195px
+}
+.ctg-error2 .section-wrap {
+border-color:#c00 !important;
+background:#FCE3E3 !important
+}
+.ctg-error2 .section-wrap select {
+background:#FCE3E3 !important
+}
+button.button2 {
+background:transparent url(http://images01.olx.com/images/v4/sp-base_2.png) no-repeat 0 -61px;
+height:27px;
+line-height:27px;
+text-indent:-1000em;
+width:33px;
+border:0;
+cursor:pointer
+}
+* html button.button2 {
+background-image:url(http://images01.olx.com/images/v4/sp-base_2.gif)
+}
+button.button2:hover {
+background-position:0 -88px; 
+}
+.pop-rel {
+border-bottom:0;
+position:relative;
+margin:0;
+margin-left:250px;
+top:23px;
+padding:0;
+}
+.pop-rel {
+font-size:1.1em
+}
+.popsearchlink {
+color:#009ed9;
+font-size:1.05em
+}
+.keyWords {
+color:#009ed9
+}
+.section-wrap {
+background:#fff;
+border:1px solid #ddd;
+display:block;
+padding:3px;
+position:relative
+}
+.section-wrap {
+padding:1px\9;
+/*border:0\9*/
+}
+
+.bottom-search input.text {
+width:250px;
+font-size:1.5em;
+line-height:1.1;
+border:1px solid #ddd;
+padding:3px 3px 2px
+}
+.bottom-search select {
+font-size:1.3em;
+height:26px;
+width:auto;
+padding:2px;
+border:1px solid #ddd
+}
+.bottom-search-label {
+float:left;
+font-size:12px;
+font-weight:bold;
+padding:7px 0 0 5px;
+width:54px;
+}
+.simple-search {
+text-align:left;
+margin:0 20px
+}
+.tooltip {
+background:red;
+color:#fff;
+text-align:center;
+font-weight:bold;
+font-size:1.2em;
+padding:8px;
+width:auto;
+position:absolute;
+top:-33px;
+left:0;
+zoom:1;
+float:none;
+white-space:nowrap;
+z-index:10000000 !important
+}
+.tooltip .pointer-down {
+position:absolute; 
+width:0; 
+height:0;
+line-height:0; 
+border-width:5px 5px 0;
+border-color:red transparent;
+border-style:solid;
+bottom:-5px;
+left:50%;
+margin-left:-5px;
+}
+* html .tooltip .pointer-down {
+/*border-style:dashed*/
+}
+/* MyOlx box */
+#my_olx {
+position:relative;
+float:right;
+text-align:right;
+z-index:100;
+font-size:1em !important
+}
+#my_olx .my_classifieds {display: none;}
+
+.hidden {visibility:hidden;}
+
+	/* langs & myolx */
+#lang-olx {
+font:1.05em/1.4 tahoma,verdana,arial,sans-serif
+}
+#languages {
+position:relative;
+float:right;
+margin:0 5px 0 0
+}
+#current-lang {
+padding-right:15px;
+background:transparent url(http://images01.olx.com/images/v4/sp-base_2.png) no-repeat 100% -104px
+}
+* html #current-lang {
+background-image:url(http://images01.olx.com/images/v4/sp-base_2.gif)
+}
+#comboIdiomas {
+display:none;
+position:absolute;
+top:1.2em;
+right:0;
+z-index:10001;
+width:85px
+}
+#comboIdiomas .cbb {
+background:#fafafa;
+border:1px solid #ccc;
+padding:7px 13px 6px 12px
+}
+#comboIdiomas .bt, #comboIdiomas .bt div, #comboIdiomas .bb, #comboIdiomas .bb div {
+height:5px
+}
+#comboIdiomas .bt {
+background-position:100% -80px
+}
+#comboIdiomas .bt div {
+background-position:-850px -80px
+}
+#comboIdiomas .bb {
+background-position:100% -85px
+}
+#comboIdiomas .bb div {
+background-position:-850px -85px
+}
+#comboIdiomas .i1, #comboIdiomas .i2 {
+border:0
+}
+#comboIdiomas .i3 {
+background:#fafafa;
+position:relative
+}
+#comboIdiomas p {
+margin:0;
+padding:3px 12px 2px
+}
+#comboIdiomas a {
+display:block;
+line-height:1;
+margin-bottom:4px
+}
+#languages a:hover {
+text-decoration:underline
+}
+#my_olx span.my_classifieds { display: none; }
+
+
+/* footer */
+#footer {
+font-size: .9em;
+margin: 15px auto 0;
+width:980px;
+clear:both;
+text-align:left
+}
+#footer #copyright {
+float:right;
+color:#99C6E2;
+margin-left:40px
+}
+#footer .links {
+color:#fff
+}
+#footer .links.cbb {
+padding:7px 13px
+}
+#footer .links a {
+color:#fff
+}
+#footer .countries {
+padding-bottom:30px
+}
+#footer .countries .block {
+padding-top:10px;
+width:110px;
+margin-left:10px;
+float:left
+}
+#footer .countries a {
+display:block;
+line-height:1.1;
+margin-bottom:5px;
+color:#666
+}
+#footer .countries a:hover {
+color:#000
+}
+#footer #external_link {
+width:100%;
+clear:both
+}
+#footer #external_link a {
+display:inline
+}
+
+/* gen borders */
+	/* xxx borders */
+#prefooter,
+#levelpathBottom {
+background:#f2f2f2
+}
+#footer .links {
+background:#0070B7;
+margin-bottom:10px;
+}
+#prefooter .bt,
+#item-extras .bt,
+#paginator .bt,
+#levelpathBottom .bt,
+#footer .links  .bt {
+background-position:100% 0
+}
+#prefooter .bt div,
+#item-extras .bt div,
+#paginator .bt div,
+#levelpathBottom .bt div,
+#footer .links  .bt div {
+background-position:0 0
+}
+#prefooter .bb,
+#item-extras .bb,
+#paginator .bb,
+#levelpathBottom .bb,
+#footer .links  .bb {
+background-position:100% -10px
+}
+#prefooter .bb div,
+#item-extras .bb div,
+#paginator .bb div,
+#levelpathBottom .bb div,
+#footer .links  .bb div {
+background-position:0 -10px
+}
+#prefooter .i1, #prefooter .i2,
+#item-extras .i1, #item-extras .i2,
+#paginator .i1, #paginator .i2,
+#levelpathBottom .i1, #levelpathBottom .i2,
+#footer .links .i1, #footer .links .i2 {
+border:0
+}
+#prefooter .i3,
+#item-extras .i3,
+#paginator .i3,
+#levelpathBottom .i3,
+#footer .links .i3 {
+padding:0 10px;
+margin:-3px 0;
+background:transparent
+}
+.howtotitle
+{
+	background-color: #fff;
+}
+#survey {
+    border: solid 1px #000000;
+    z-index: 9999;
+    position: absolute;
+    margin-top: 70px;
+    left: 50%;
+    margin-left: -273px;
+    width: 545px;
+    height: 330px;
+    background-image: url(http://images01.olx.com/images/survey_popup.gif);
+    display: none;
+}
+#survey #buttons {
+    margin-top: 200px;
+    text-align: center;
+}
+#survey #buttons a {
+    padding: 15px;
+}
+#survey_banner {
+    display:none;
+    clear:left;
+    width:220px;
+    top:10px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+}
+.centered_survey_banner{
+    left: 50%;
+    margin-left:-110px;
+}
+
+.env {
+position:absolute;
+padding:3px 5px;
+font-weight:bold;
+color:#fff;
+background:#333;
+font-size:1.3em;
+letter-spacing:-.05em;
+z-index:10000;
+font-size:13px;
+}
+
+
+/* VideoGenie */
+
+.linkVideo{
+	margin: 0 auto;
+	width: 99%;
+	border-top: 1px solid #dadada;
+	padding-top: 8px;
+	text-align: center;
+}
+.linkVideo a{
+	font-size: .9em;
+	color: #00a6ef;
+}
+
+span#ui-dialog-title-termsBox{
+	font-weight: normal;
+}
+#termsBox h2, #termsBox ol{
+	font-size: 12px;
+}
+#termsBox ol{
+	padding: 0 0 0 15px;
+	color: #000;
+}
+#termsBox ol li{
+	margin-bottom: 20px;
+}
+
+/* HELP */
+
+
+#help-content #help-nav{
+	width: 215px;
+	float: left;
+}
+#help-content #help-content-respuestas{
+	width: 745px;
+	float: left;
+	padding-left: 15px;
+}
+div.help-col *, div.topQuestions *{
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	list-style: none;
+}
+#help-index div.help-col{width: 307px;float: left;padding: 10px 5px;}
+#help-index div.help-col h2, #help-index div.topQuestions h2 {	font-size: 1.3em;}
+#help-index div.help-col h2, #help-index div.topQuestions h2,
+#help-content h2, #help-content h3{margin:0px;width:auto; margin-bottom: 5px;font-weight: bold;}
+#help-content h3 {margin-top: 5px;font-size: 1.2em;}
+#help-content p{ margin:12px 0;}
+#help-index div.help-col ul{margin-bottom: 10px;}
+div.topQuestions{
+	clear: both;
+	padding: 10px 10px 10px 5px;
+}
+#help-index div.help-col h2{
+	background: url(/images/help_ui.gif) no-repeat;
+	padding: 2px 0 2px 35px;
+}
+#help-index div.help-col h2.titleBrand{
+	background-position: -10px -54px;
+}
+#help-index div.help-col h2.titlePostings{
+	background-position: -10px -100px;
+	padding: 8px 0 2px 35px;
+}
+#help-index div.help-col h2.titleQuestions{
+	background-position: -10px -209px;
+	padding-bottom: 0;
+}
+#help-index div.help-col h2.titleGuidelines{
+	background-position: -10px -156px;
+}
+div.topQuestions h2{
+	color: #ff7900;
+	padding-left: 35px;
+}
+#help-content li {margin:0px;}
+#help-content #help-nav{
+	font-size: 11px;
+	margin-bottom: 20px;
+}
+#help-content #help-nav h2{
+	background: url(/images/help_ui.gif) -2px -297px no-repeat;
+	padding-left: 16px;
+	margin-bottom: 10px;
+	cursor: pointer;
+        font-size: 1em;
+}
+#help-content #help-nav h2.activa{
+	background-position: -2px -347px !important;
+}
+#help-content #help-nav ul{
+	margin-bottom: 10px;
+}
+#help-content #help-nav ul li a.activa{
+	color: #000;
+}
+#help-content #help-nav div.help-col{
+	padding-left: 4px;
+}
+#help-content #help-nav div.i3{
+	padding: 8px 5px 0 5px;
+}
+
+
+#help-content-respuestas ol{
+	font-size: 12px;
+	color: #000;
+}
+
+#help-content-respuestas div{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+#help-content-respuestas ul,
+#help-content-respuestas li {list-style-position:outside;list-style-type:disc; margin-left:10px; margin-bottom: 5px;}
+#help-index ul{ padding-left: 33px;}
+#help-index ul li{background: url(/images/help_ui.gif) -2px -246px no-repeat;padding-left: 12px;margin:0px;}
+#help-content, #help-nav ul, #help-content-respuestas div{
+	display: none;
+}
+* html #help-index div.topQuestions ul li, * html #help-content #help-nav h2{
+	display: inline-block;
+}
+.page-content { margin: 10px 0; }
+.page-noindex { margin-top: 21px!important;}
+.page-content .i3, .page-about { padding: 10px;}
+.page-partners-box .i3 {padding:10px 10px 30px !important}
+/* Terms Of Use & Privacy Policy */
+.termsOfUse {text-align:left;}
+.termsOfUse * {font-size:12px !important;line-height:18px !important;color:#000;}
+.termsOfUse a {color:#00c;text-decoration:none}
+.termsOfUse ol, .termsOfUse ul {margin:0 0 10px;padding:0; width:650px;}
+.termsOfUse p {margin:0 0 18px;padding:0;width:650px;}
+.termsOfUse ol li h3 {font-size:13px !important;margin:0 !important;padding:0 !important;}
+
+div.termsOfUseWarning {display:block;margin:5px 0;border:1px solid #DDDDDD;padding:10px;position:relative;}
+.termsOfUseWarning p { margin: .5em;}
+#terms-of-use, #privacy {color:#000;}
+#terms-of-use li, #privacy li { display: list-item;margin: 1.5em 0;}
+#terms-of-use li li, #privacy li li  {margin: 0.5em 0 0.75em 1em;}
+#terms-of-use h1, #privacy h1 { font-size: 2em; /* margin: .67em 0 */ }
+#terms-of-use h2, #privacy h2 { font-size: 1.5em; /* margin: .75em 0 */ }
+#terms-of-use h3, #privacy h3 { font-size: 1.17em; margin: .83em 0 }
+
+#terms-of-use h4, #privacy h4,
+#terms-of-use p, #privacy p,
+#terms-of-use ul, #privacy ul,
+#terms-of-use ol, #privacy ol,
+#terms-of-use dl, #privacy dl  { color:#000; display: block; text-align: justify;}
+
+#terms-of-use ol {padding:0;margin-left: 15px;}
+#terms-of-use ol li {list-style-type:decimal;}
+#terms-of-use ol ol {padding:0;}
+#terms-of-use ol ol li {list-style-type:lower-roman;}
+#terms-of-use ul {padding:0;}
+#terms-of-use ul li {list-style-type:circle;}
+#privacy.termsOfUse {padding:0;}
+#terms-of-use h2, #terms-of-use h3 {font-weight: bold;}
+#terms-of-use h2 {margin:12px 0;}
+#tools-widgets li {line-height: 1.8;display:list-item;margin:0px;list-style-image:none;list-style-position:outside;list-style-type:disc;}
+#tools-widgets .tools-widgets-list{margin-left: 10px; padding: 15px;}
+#terms-of-use ol, #terms-of-use ul ,
+#privacy ol, #privacy ul {padding-left: 30px!important;}
+#frmContactus label{
+    clear: both;
+    float: left;
+    display: block;
+    width: 220px;
+    height: 25px;
+    padding: 0 10px 0 0;
+}
+#frmContactus input.text,
+#frmContactus select,
+#frmContactus textarea,
+#frmContactus .file {
+    border: 1px solid #CCCCCC;
+    float: left;
+    line-height: 20px;
+    margin: 0 80px 5px 0;
+    padding: 2px;
+    width: 320px;
+}
+#frmContactus input.text,
+#frmContactus select,
+#frmContactus .file {
+    height: 20px;
+}
+
+#frmContactus select {
+height: 26px;
+height: 20px\9;
+padding:3px 3px 3px 2px;
+width: 326px;
+margin-bottom: 10px;
+margin-bottom: 5px\9;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#frmContactus select {
+margin-bottom: 5px;
+}
+}
+
+#frmContactus .textarea{
+    width:578px;
+    display: block;
+    margin-right: 0px;
+}
+#frmContactus .msg-error{
+    clear: both;
+    margin-bottom: 5px;
+    margin-left: 230px;
+    display: block;
+}
+#frmContactus #captchaCodeTbl {
+    clear: both;
+}
+p#captchaCodeTbl {width:100%;}
+p#captchaCodeTbl label {height:50px;}
+p#captchaCodeTbl input#security_code {margin-top:5px\9;}
+
+#frmContactus #priority{display: none;}
+#frmContactus .form-submit, #removealertsform .form-submit, #page-lostPassword .form-submit{
+    background: url("http://images01.olx.com/images/pag_pts.gif") repeat scroll 0 0 transparent;
+    margin: 10px 0 0;
+    padding: 10px 27px 10px 230px;
+}
+
+.warning-page .static-page-container ul li {
+    background: none no-repeat scroll 0 0 transparent;
+    list-style: circle inside none;
+    margin: 7px;
+    padding-left: 0;
+}
+
+.warning-page #lists {
+    padding:0 40px;
+    clear:both;
+    overflow:hidden;
+}
+
+.warning-page #lists h2 {
+    font-weight:normal;
+    font-size:16px;
+    margin:0px 0 5px 0;
+}
+
+.warning-page #lists ul {
+    width:33.33%;
+    margin:0 0 30px 0;
+    padding:0;
+    float:left;
+}
+
+.warning-page #lists ul.type2 {
+    font-size:11px;
+}
+
+.warning-page #lists ul li {
+    background-image:none;
+    list-style: none outside none;
+}
+
+.warning-disclaimer strong {}
+
+/*** remove alert **/
+#page-removealert{
+	margin-top:10px;
+}
+.alert_details {
+	padding:20px 10px;
+}
+
+.alert_details h2 {
+    font-size: 12px;
+    width: 100%;
+	margin:0 0 10px;
+}
+
+.alert_details p{
+	margin-bottom:0;
+	width:100%;
+}
+
+#removealertsform .form-submit{
+	padding-left:0;
+	text-align:center;
+}
+.warning-disclaimer {padding:10px;}
+
+.sitemap .static-page-container li  {margin-bottom:0px;}

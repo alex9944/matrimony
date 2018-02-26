@@ -1,0 +1,379 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ss_webhosting {
+	border-collapse: collapse;
+	border: 1px solid #FFF;
+}
+.ss_webhosting th {
+	font-size: 12px;
+	border-collapse: collapse;
+	border-left: solid 1px #ffffff;
+	border-right: solid 1px #ffffff;
+	text-align: center;
+	padding: 10px 6px;
+}
+.ss_webhosting td {
+	font-size: 12px;
+	border-collapse: collapse;
+	border-left: solid 1px #ffffff;
+	border-right: solid 1px #ffffff;
+	text-align: center;
+	padding: 10px 6px;
+}
+.ss_webhosting .heading_plans1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FCECD6;
+	text-align: center;
+	border-bottom: solid 0px;
+	text-transform: uppercase;
+	width: 100px;
+	background-color: #a50050;
+	font-weight: bold;
+	padding-top: 6px;
+	padding-right: 0px;
+	padding-bottom: 6px;
+	padding-left: 0px;
+}
+.ss_webhosting .heading_plans2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FCECD6;
+	text-align: center;
+	border-bottom: solid 0px;
+	text-transform: uppercase;
+	width: 100px;
+	background-color: #A50050;
+	font-weight: bold;
+	padding-top: 6px;
+	padding-right: 0px;
+	padding-bottom: 6px;
+	padding-left: 0px;
+}
+.ss_webhosting .heading_plans4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FCECD6;
+	text-align: center;
+	border-bottom: solid 0px;
+	text-transform: uppercase;
+	width: 100px;
+	background-color: #A50050;
+	font-weight: bold;
+	padding-top: 6px;
+	padding-right: 0px;
+	padding-bottom: 6px;
+	padding-left: 0px;
+}
+.ss_webhosting .heading_plans5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FCECD6;
+	text-align: center;
+	border-bottom: solid 0px;
+	text-transform: uppercase;
+	width: 100px;
+	background-color: #A50050;
+	font-weight: bold;
+	padding-top: 6px;
+	padding-right: 0px;
+	padding-bottom: 6px;
+	padding-left: 0px;
+}
+.ss_webhosting .prices_plans1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px 10px;
+    text-align: center;
+    background-image: url(../../../images/yootheme/webhosting_prices_bg1.gif);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-color: #799259;
+    font-weight: bold;
+}
+.ss_webhosting .prices_plans1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	text-align: center;
+	background-image: url(../../../images/yootheme/webhosting_prices_bg1.gif);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	background-color: #909ba9;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-right: 5px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+}
+.ss_webhosting .prices_plans1 big {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: normal;
+    line-height: 45px;
+}
+.ss_webhosting .prices_plans2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	text-align: center;
+	background-color: #e88c00;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-right: 5px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+}
+.ss_webhosting .prices_plans2 big {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: normal;
+    line-height: 45px;
+}
+.ss_webhosting .prices_plans4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	text-align: center;
+	background-color: #de036d;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-right: 5px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+}
+.ss_webhosting .prices_plans4 big {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: normal;
+    line-height: 45px;
+}
+.ss_webhosting .prices_plans4 strong {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10px;
+    color: #f4f5c4;
+    line-height: 16px;
+}
+.ss_webhosting .prices_plans5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	padding: 5px;
+	text-align: center;
+	background-color: #8ea967;
+	font-weight: bold;
+}
+.ss_webhosting .prices_plans5 big {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: normal;
+    line-height: 45px;
+}
+.ss_webhosting .features {
+    text-align: left;
+    background-color: #ffffff;
+}
+.ss_webhosting .plans1 {
+	background-color: #ECEEF0;
+}
+.ss_webhosting .plans2 {
+	background-color: #FFF1DD;
+}
+.ss_webhosting .plans4 {
+	background-color: #FFF0F8;
+}
+.ss_webhosting .plans5 {
+	background-color: #ECF4D7;
+}
+.ss_webhosting tr.alt .features {
+	text-align: left;
+	background-color: #FCECD6;
+}
+.ss_webhosting tr.alt .plans1 {
+	background-color: #C6CBD2;
+}
+.ss_webhosting tr.alt .plans2 {
+	background-color: #FFDFAE;
+}
+.ss_webhosting tr.alt .plans4 {
+	background-color: #F8CBDB;
+}
+.ss_webhosting tr.alt .plans5 {
+	background-color: #C7D5B3;
+}
+.ss_webhosting .bestvalue {
+    background-image: url(../../../images/yootheme/bestvalue_icons.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+.ss_webhosting tr.alt .bestvalue {
+    background-image: url(../../../images/yootheme/bestvalue_icons.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+.ss_webhosting .plans1 small {
+    font-size: 10px;
+    color: #1257d4;
+}
+.ss_webhosting .plans2 small {
+    font-size: 10px;
+    color: #1257d4;
+}
+.ss_webhosting .plans4 small {
+    font-size: 10px;
+    color: #1257d4;
+}
+.ss_webhosting .plans5 small {
+    font-size: 10px;
+    color: #1257d4;
+}
+.ss_webhosting a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #252525;
+    text-decoration: none;
+    font-weight: bold;
+}
+.ss_webhosting tr.noborders td {
+    border-bottom: solid 0px;
+    border-top: solid 0px;
+}
+.ss_webhosting tr.bestprices td {
+}
+.ss_webhosting tr.bestprices {
+    border: solid 2px #729341;
+}
+.ss_webhosting tr.noborders strike {
+    font-size: 16px;
+    color: #ffffff;
+}
+.ss_webhosting strike {
+    font-size: 10px;
+    color: #454545;
+}
+.status_yes {
+	background-image: url(../images/icons/accept_16_payment.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 16px;
+	width: 16px;
+	margin-right: auto;
+	margin-left: auto;
+	background-position: left top;
+	font-size: 11px;
+	line-height: 11px;
+}
+.status_no {
+	background-image: url(../images/icons/remove__16_payment.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 16px;
+	width: 16px;
+	margin-right: auto;
+	margin-left: auto;
+	background-position: left top;
+	font-size: 11px;
+	line-height: 11px;
+}
+
+table.tbl_cart,table.tbl_cart td, table.tbl_cart th
+{
+border-collapse:collapse;
+}
+
+table.tbl_cart tr th
+{
+	color: #A50050;
+	background-color: #FCECD6;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: bold;
+	font-size: 14px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 2px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #A50050;
+	border-right-color: #A50050;
+	border-bottom-color: #A50050;
+	border-left-color: #A50050;
+	
+}
+table.tbl_cart tr.subsection th
+{
+	background-color:#ebebeb;
+	font-weight:bold;
+	color: #A50050;
+	border: 1px solid #CCC;
+}
+
+table.tbl_cart tr td
+{
+	padding-top: 8px;
+	padding-right: 5px;
+	padding-bottom: 8px;
+	padding-left: 5px;
+	border: 1px dotted #A50050;
+}
+
+table.tbl_cart tr.footer th
+{
+	color: #A50050;
+	background-color: #FCECD6;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: bold;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #A50050;
+	text-align: right;
+	font-size: 13px;
+	
+}
+
+
+.para_margin {
+	margin-top: 10px;
+}
+.tbl_bankdetails {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.tbl_bankdetails tr td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-collapse:separate;
+	margin:5px;
+	border:solid 3px #fff;
+}
+.tbl_bankdetails tr .td_bg1, .tbl_bankdetails tr .td_bg2, .tbl_bankdetails tr .td_bg3, .tbl_bankdetails tr .td_bg4   {
+	font-weight: normal;
+	text-align: left;
+	padding-left: 10px;
+}
+a.float_center {
+
+}
+.para_border {
+	border: 1px solid #de036d;
+}
+.ss_webhosting td  td
+{
+	border:none;
+}
+

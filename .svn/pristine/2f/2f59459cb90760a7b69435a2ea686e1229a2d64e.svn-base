@@ -1,0 +1,117 @@
+
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.sf-menu {
+	line-height:	1.0;
+}
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			180px; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			38px; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+
+/* DEMO SKIN */
+
+
+.sf-menu li li {
+	margin:0px;
+	padding:0px;
+	background:		#fff;
+	margin-top:0px;
+	border-bottom:solid 1px #fff;
+	height:auto;
+	
+}
+.sf-menu li li a.active, .sf-menu li li li a.active
+{
+	/*color:#ffabd6;*/
+}
+
+
+.sf-menu li li li, .sf-menu li li:hover li {
+	margin:0px;
+	padding:0px;
+	background:	#a50050;
+	margin-top:0px;
+	border-bottom:solid 1px #de006c;
+	height:auto;
+	
+}
+
+
+.sf-menu li li li,
+.sf-menu li li li a,
+.sf-menu li li:hover li,
+.sf-menu li:hover li li a,
+.sf-menu li li:hover li a,
+.sf-menu li:hover li:hover li:hover,
+.sf-menu li:hover li:hover li:hover a,
+.sf-menu li:hover li:hover li a
+{
+	background-color:#c4005f;
+}
+
+.sf-menu li li a:hover ,.sf-menu li li li a:hover
+{
+/*	text-decoration:underline;
+	font-size:13px; */
+	color:#a50050;
+}
+
+
+
+.sf-menu li li,
+.sf-menu li li li,
+ul.menu li li,
+ul.menu li li li,
+ul.menu li:hover li,
+ul.menu li:hover li:hover
+ul.menu li:hover li a
+ul.menu li:hover li a:hover
+{
+	background-image:none;
+}
+
+

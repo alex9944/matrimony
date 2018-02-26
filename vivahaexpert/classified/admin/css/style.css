@@ -1,0 +1,110 @@
+body{ font-family:"Trebuchet MS"; font-size:12px; color:#333333; margin:0px; padding:0px; background-image:url(../images/sbg.jpg); background-repeat:repeat-x; background-color:#fff;}
+
+#footer{ background-image:url(../images/footer_bg1.jpg); background-repeat:repeat-x; height:185px; padding-top:0px;}
+#body_left{ padding-left:10px; padding-top:10px;}
+#body_right{ padding-left:10px; padding-right:10px; padding-top:10px;}
+
+.top_link, .top_link a{ font-family:Tahoma; font-size:12px; color:#000; text-decoration:none; font-weight:bold; }
+
+#top_link_table{ width:338px; height:15px; padding-top:10px; margin:0px; float:left}
+
+.top_big_link, .top_big_link a{ font-family:"Trebuchet MS"; font-size:14px; font-variant:small-caps;  color:#000; text-decoration:none; }
+
+.input_search{ background:transparent; font-family:Tahoma; font-size:16px; color:#666; text-decoration:none; border:0px #CCCCCC solid; width:520px; height:23px; }
+
+.input_login{ background:transparent; font-family:Tahoma; font-size:11px; color:#666; text-decoration:none; border:0px #CCCCCC solid; width:102px; height:23px;}
+
+.login_text{ font-family:Tahoma; font-size:11px; color:#000; text-decoration:none; font-variant:small-caps; }
+
+.text{ font-family:Tahoma; font-size:11px; color:#000; text-decoration:underline; }
+
+.advance_search, .advance_search a{ font-family:"Trebuchet MS"; font-size:12px; color:#fff; text-decoration:none; font-variant:small-caps; }
+
+.bottom_link, .bottom_link a{ font-family:Tahoma; font-size:11px; color:#a4a3a3; text-decoration:none; }
+
+.bottom_big_link, .bottom_big_link a{ font-family:"Trebuchet MS"; font-size:12px; font-variant:small-caps;  color:#a4a3a3; text-decoration:none; }
+
+#free_post{ width:169px; height:70px; padding-top:20px; margin:0px; float:left}
+
+.related{ font-family:"Trebuchet MS"; font-size:14px; color:#000; text-decoration:none; font-variant:small-caps; font-weight:bold; }
+
+.related_text, .related_text a{ font-family:Tahoma; font-size:11px; color:#000; text-decoration:underline; line-height:normal; }
+
+.welcome_head{ font-family:"Trebuchet MS"; font-size:18px; color:#666; text-decoration:none; }
+
+.welcome_head_center{ font-family:"Trebuchet MS"; font-size:18px; color:#000; text-decoration:none; }
+
+.welcome_text{ font-family:"Trebuchet MS"; font-size:12px; color:#000; text-decoration:none; }
+
+.company_directory{ font-family:"Trebuchet MS"; font-size:16px; color:#ab0266; text-decoration:none; font-weight:bold; font-variant:small-caps; }
+.welcome_head{background-image:url(../images/company_directory_bg.jpg); background-repeat:repeat-x; height:39px; padding-left:10px;}
+
+.sub_title{ font-family:"Trebuchet MS"; font-size:14px; color:#023f77; text-decoration:none; font-variant:small-caps; font-weight:bold;} 
+
+.sub_text, .sub_text a{ font-family:"Trebuchet MS"; font-size:11px; color:#000; text-decoration:none; line-height:22px;}
+
+.ad_text, .ad_text a{ font-family:"Trebuchet MS"; font-size:11px; color:#000; text-decoration:none; line-height:17px;}
+
+.ad_text_color, .ad_text_color a{ font-family:"Trebuchet MS"; font-size:11px; color:#be1571; text-decoration:none; line-height:17px;}
+ 
+.bold{font-family:"Trebuchet MS"; font-size:12px; color:#333333; font-weight:bold;}
+.bold1{font-family:"Trebuchet MS"; font-size:13px; color:#ffffff; font-weight:bold;}
+
+.head_bg{font-family:"Trebuchet MS"; font-size:15px; color:#000; font-weight:bold; background-color:#fde9f4; height:30px; padding-left:10px;}
+
+.link1{font-family:"Trebuchet MS"; font-size:12px; color:#000; font-weight:bold; text-decoration:none;}
+.link1 a{font-family:"Trebuchet MS"; font-size:12px; color:#000; font-weight:bold; text-decoration:none;}
+.link1 a:link{font-family:"Trebuchet MS"; font-size:12px; color:#000; font-weight:bold; text-decoration:none;}
+.link1 a:hover{font-family:"Trebuchet MS"; font-size:12px; color:#000; font-weight:bold; text-decoration:underline;}
+
+.tab_head{font-family:"Trebuchet MS"; font-size:13px; color:#023f77; font-weight:bold; background-color:#fde9f4; height:30px; padding-left:0px;}
+
+.leftmenu_head{font-family:"Trebuchet MS"; font-size:15px; color:#023f77; font-weight:bold; background-color:#fde9f4; height:30px; padding-left:0px; border-bottom:1px solid #FFFFFF;}
+
+.leftmenu_tab{font-family:"Trebuchet MS"; font-size:12px; color:#333333; font-weight:bold; background-color:#f5f3f4; height:23px; padding-left:0px; border-bottom:1px solid #FFFFFF;text-decoration:none;}
+
+.leftmenu_tab a{font-family:"Trebuchet MS"; font-size:12px; color:#333333; font-weight:bold; text-decoration:none;}
+.leftmenu_tab a:link{font-family:"Trebuchet MS"; font-size:12px; color:#333333; font-weight:bold;text-decoration:none;}
+.leftmenu_tab a:hover{font-family:"Trebuchet MS"; font-size:12px; color:#333333; font-weight:bold;text-decoration:underline;}
+
+.tab1{font-family:"Trebuchet MS"; font-size:12px; color:#333333; font-weight:bold; background-color:#f8eff4; height:23px; padding-left:0px; border-bottom:1px solid #FFFFFF;}
+
+
+.sub_cat{font-family:"Trebuchet MS"; font-size:12px; color:#333333; font-weight:bold; background-color:#ebe9ea; height:23px; padding-left:0px; border-bottom:1px solid #FFFFFF;text-decoration:none;}
+
+.sub_cat a{font-family:"Trebuchet MS"; font-size:12px; color:#333333; font-weight:bold; text-decoration:none;}
+.sub_cat a:link{font-family:"Trebuchet MS"; font-size:12px; color:#333333; font-weight:bold;text-decoration:none;}
+.sub_cat a:hover{font-family:"Trebuchet MS"; font-size:12px; color:#333333; font-weight:bold;text-decoration:underline;}
+
+.but_bg{ font-family:"Trebuchet MS", Times, serif; font-size:12px; color:#ffffff; font-weight:bold; background-color:#036cb0; border:1px solid #333333; cursor:pointer;}
+/* -------------------------------------- */
+
+.combo_box{
+	width:155px;
+	height:20px;
+	background-color:#FFFFFF;
+	border:1px solid #CCCCCC;
+	font-family:Arial;
+	font-size:12px;
+	color:#666666;
+	padding-left:3px;
+}
+.text_box{
+	width:150px;
+	height:20px;
+	background-color:#FFFFFF;
+	border:1px solid #CCCCCC;
+	font-family:Arial;
+	font-size:12px;
+	color:#666666;
+	padding-left:3px;
+}
+
+.text_area{
+	background-color:#FFFFFF;
+	border:1px solid #CCCCCC;
+	font-family:Arial;
+	font-size:12px;
+	color:#666666;
+	padding-left:3px;
+}

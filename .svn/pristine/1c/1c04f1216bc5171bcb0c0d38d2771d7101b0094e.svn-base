@@ -1,0 +1,117 @@
+.chromestyle{
+width: 99%;
+font-weight: bold;
+height:40px;
+}
+
+.chromestyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.chromestyle ul{
+border: 0px solid #BBB;
+width: 100%;
+/*background: url(chromebg.gif) center center repeat-x; THEME CHANGE HERE*/
+padding: 13px 0px 0px 0px;
+margin: 0;
+
+text-align: center; /*set value to "left", "center", or "right"*/
+
+}
+
+.chromestyle ul li{
+display: inline;
+
+}
+
+.chromestyle ul li a{
+color: #000000;
+padding: 8px 8px 0px 8px;
+margin: 0;
+height:0px;
+text-decoration: none;
+background: url(../images/pipe_line.jpg);
+background-position:right;
+background-repeat:no-repeat;
+border-right: 0px solid #DADADA;
+font-family: Trebuchet MS; font-size:13px; color:#000000;  line-height:12px; font-weight:normal;
+}
+
+.chromestyle ul li a:hover, .chromestyle ul li a.selected{ /*script dynamically adds a class of "selected" to the current active menu item*/
+/*background: url(chromebg-over.gif) center center repeat-x; THEME CHANGE HERE*/
+font-family:Trebuchet MS; font-size:13px; color:#000000; line-height:12px; font-weight:normal;text-decoration:none;
+
+height:0px;
+}
+/**********************link sapn start************************/
+.chromestyle ul li span{ 
+display: inline;
+
+}
+.chromestyle ul li span a{
+color: #FF9600;
+padding: 8px 8px 0px 8px;
+margin: 0;
+height:40px;
+text-decoration: none;
+background: url(../images/pipe_line.jpg);
+background-position:right;
+background-repeat:no-repeat;
+border-right: 0px solid #DADADA;
+font-family:  Tahoma, Arial, Verdana,; font-size:11px;   line-height:12px; font-weight:bold;
+}
+
+.chromestyle ul li span a:hover, .chromestyle ul li span a.selected{ /*script dynamically adds a class of "selected" to the current active menu item*/
+/*background: url(chromebg-over.gif) center center repeat-x; THEME CHANGE HERE*/
+font-family:  Tahoma, Arial, Verdana,; font-size:11px; color:#000; line-height:12px; font-weight:bold;text-decoration:underline;
+
+height:55px;
+}
+/***********************************link span end**************************/
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv{
+position:absolute;
+text-align:center;
+top: 100;
+margin-top:-2px;
+margin-left:17px;
+border: 1px solid #fff; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 12px Verdana;
+line-height:18px;
+z-index:100;
+background-color: #036cb0;
+width: 120px;
+visibility: hidden;
+filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=105,strength=4); /*Add Shadow in IE. Remove if desired*/
+}
+
+
+.dropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #fff; /*THEME CHANGE HERE*/
+padding: 2px 0;
+text-decoration: none;
+font-weight: bold;
+color: #fff;
+padding-bottom:3px; 
+padding-top:3px;
+}
+
+* html .dropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #ed238a;
+color:#000000;
+font-weight:bold;
+
+}

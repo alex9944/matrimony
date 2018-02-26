@@ -1,0 +1,1 @@
+<div class="banner_h_std"><img src="images/H_STD_BANNER.gif" width="468" height="80" /></div>

@@ -1,0 +1,832 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Matrimonial - Membership Form</title>
+<link href="css/template.css" rel="stylesheet" type="text/css" media="all" />
+<!-- JS FOR SuperFish DropDown Menu ############################# -->
+<link href="css/dropDownMenu/superfish.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="scripts/jquery1.6.2_production.js"></script>
+<script type="text/javascript" src="scripts/superfish.js"></script>
+
+<script language="javascript"> 
+/*SCRIPT INITIALIZATION FOR DROPDOWN MENU###################### */ 
+    $(document).ready(function(){ 
+        $("ul.sf-menu").superfish(); 
+		
+		$("#btnBenifits").click(function () 
+		{ 
+		$("#upgradeCompare").slideDown("slow"); 
+    	$("#upgrade").slideUp("slow");	
+		});
+		
+		$("#btnCompare").click(function () 
+		{ 
+		$("#upgradeCompare").slideDown("slow"); 
+    	$("#upgrade").slideUp("slow");	
+		});
+	
+		$("#btnUpgrade").click(function () 
+		{ 
+		$("#upgradeCompare").slideUp("slow"); 
+    	$("#upgrade").slideDown("slow");	
+		});
+	
+	
+	
+	
+    });
+	
+</script>
+
+<link href="css/regis_mem_home.css" rel="stylesheet" type="text/css" />
+<link href="css/payment.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="wrapper">
+
+
+<!-- HEADER STARTS HERE ###################################################  -->
+  <div id="header">
+    <div id="title">
+  
+      <a href="index.html" title="Matrimonial" target="_self" class="logo"><img src="images/logo.png" alt="Matrimonial " width="309" height="64" /></a>
+      <div class="live_support brown"><span class="support"></span>24 / 7 Hrs. <br />
+        <a href="#" title="Live Chat Support" class="ping">Live Chat Support</a> <br />
+        +91 94400334422</div>
+      <a href="http://jkinternational.co" title="JK International" target="_blank" class="jk"><img src="images/jk_logo.png" width="206" height="51" alt="JK International" /></a></div>
+    <div id="top_menu">
+      <ul class="menubar">
+        <li class="left"></li>
+        <li class="center">
+        <ul id="sample-menu-1" class="menu sf-menu sf-js-enabled sf-shadow">
+            <li><a href="#" > My Home</a>
+
+            <ul>
+           	        <li><a href="#">Edit Email Settings</a> </li>
+			           <li><a href="#">My Additional Details</a></li>
+            			<li><a href="#" >View Partner Matches</a></li>
+
+
+                    </ul>
+            </li>
+           <li><a href="x/a.html">My Profile </a>
+        			<ul>
+           	        <li><a href="#"> Update Profile</a> </li>
+           	        <li><a href="#"> Opt Ins</a> </li>
+                    <li><a href="#"> Change Password</a> </li>
+			           <li><a href="#">My Photo</a></li>
+                       <li><a href="#">My Video</a></li>
+                       
+            			<li><a href="#" >My Horoscope</a></li>
+                     	<li><a href="#">Update Partner profile</a> </li>
+			           <li><a href="#">Update My Interests</a></li>
+                        <li><a href="#">Delete Profile</a></li>
+
+                    </ul>
+           </li>
+          <li><a href="x/a.html" > My search </a>
+        			<ul>
+           	        <li><a href="#"> Quick Search</a> </li>
+			           <li><a href="#">Advanced Search</a></li>
+            			<li><a href="#">Keyword search</a></li>
+                     	<li><a href="#">Education Search</a> </li>
+			           <li><a href="#">Occupational Search</a></li>
+                        <li><a href="#">Members ID Search</a></li>
+                        <li><a href="#">Select Match Search</a></li>
+                        <li><a href="#">My Favourite Matches</a></li>
+
+                    </ul>
+           </li>
+            <li><a href="x/a.html" >My Messages</a> </li>      
+	          <li><a href="x/a.html" >My Favourites</a> </li>  
+            <li><a href="x/a.html" class="active" >Upgrade</a>
+        			<ul>
+           	        <li><a href="#">My membership</a> </li>
+			           <li><a href="#">Free membership</a></li>
+            			<li><a href="#">Premium Membership</a></li>
+                     	<li><a href="#">My Orders</a> </li>
+			         </ul>
+           </li>
+           
+            <li><a href="x/a.html" >Help</a> </li>  
+
+        <li><a href="#">Contact Us</a></li>
+            </ul>
+        </li>
+        <li class="right"></li>
+      </ul>
+    </div>
+</div>
+<!-- HEADER ENDS HERE ###################################################  -->
+
+<!-- CONTENT AREA STARTS HERE ###################################################  -->
+
+ <!-- BREADCRUMBS STARTS HERE #####################################  -->
+<div id="breadcrumb"> 
+<ul class="breadcrumbs">
+		<li class="left"></li>
+        
+      <li class="center">
+        <div id="breadcrumb_text">You are Here:
+<span class="pathway">
+<a href="#">My Home</a> <img alt="" src="images/icons/arrow_breadcrumbs.png">
+
+Upgrade</span>
+
+</div>
+      </li>
+        
+        <li class="right"></li>
+</ul>
+</div>
+<!-- BREADCRUMBS ENDS HERE ########################################  -->
+
+  <div id="content_area">
+  
+ 
+    <div id="inner_left">
+      <div id="inner_left_header"></div>
+      
+      <div id="inner_left_content">
+        <p style="text-align:center;margin-top:20px; font-size:12px"><!--<strong>Mis. Tara</strong>, You are Logged in at 7:30 PM<br/>-->
+        <a href="#" class="button-small square-orange uppercase float_right" style="float:none; clear:both; margin:5px auto;"><span></span> Logout </a></p>
+        <hr />
+        
+        
+      <!--Recently Uploaded module starts here--><!--Recently Uploaded module starts here-->     
+      <h2 class="left_title"> Your Shopping Cart</h2>
+      <div class="recentupload">
+        <table width="100%" class="tbl_cart">
+          <tr>
+            <th width="10%">&nbsp;</th>
+            <th>You have Choosen</th>
+            <th width="30%">Total (INR)</th>
+          </tr>
+          <tr>
+            <td align="center"><img src="images/icons/cancel.png" width="16" height="16" /></td>
+            <td>Membership: Numinous Gold</td>
+            <td align="right"><strong>575.00</strong></td>
+          </tr>
+          <tr align="center" class="subsection">
+            <th colspan="3" align="left">Add-on Features</th>
+          </tr>
+          <tr>
+            <td align="center"><img src="images/icons/cancel.png" width="16" height="16" /></td>
+            <td>AstroMatch - Online Horoscope Matching</td>
+            <td align="right"><strong>1050.00</strong></td>
+          </tr>
+          <tr>
+            <td align="center"><img src="images/icons/cancel.png" width="16" height="16" /></td>
+            <td>Profile Smasher - Get better visibility with a special profile ad (3 Months)</td>
+            <td align="right"><strong>1200.00</strong></td>
+          </tr>
+                <tr>
+            <td align="center"><img src="images/icons/cancel.png" width="16" height="16" /></td>
+            <td>Match Promoter - Customized Email and SMS
+Improve Response with Email and SMS</td>
+            <td align="right"><strong>1500.00</strong></td>
+          </tr>
+          <tr class="footer">
+            <th colspan="2">Grand Total (INR): </th>
+            <th align="right"> 4325.00</th>
+          </tr>
+        </table>
+      
+      
+      </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="F_prof_block margin10">
+          <div class="head">
+            <h2>Why We are Different</h2>
+          </div>
+          <div class="body">
+            <ul class="ddlist list-tick">
+              <li> At numinousMatch you get your money's worth and you're not hounded by offensive advertisements or spam.<br />
+                <br />
+              </li>
+              <li> We keep a sharp eye out to protect our members' privacy. We aggressively delete any members found spamming or harassing other members.<br />
+                <br />
+              </li>
+              <li> NuminousMatch would NEVER create a fake profile to lure anyone. With millions of members, we have nothing to gain and everything to lose. Your trust is very important to us and our business ethics are beyond reproach.<br />
+                <br />
+              </li>
+              <li> We put you in control of your auto membership renewal. You can manage your auto renew status easily online at any time.<br />
+              </li>
+            </ul>
+          </div>
+          <div class="foot"></div>
+        </div>
+        <div class="F_prof_block margin10">
+          <div class="head">
+            <h2>Success Stories</h2>
+          </div>
+          <div class="body">
+            <table width="100%" border="0" cellspacing="5" cellpadding="0">
+              <tr>
+                <td height="180" align="center" valign="middle"><a href="#"><img src="images/success_img.jpg" width="150" height="150" class="img_profile" /></a></td>
+              </tr>
+              <tr>
+                <td align="center">
+                <p><strong>Ajith</strong> got married to <strong>Priyanka</strong> on 27 February 2009 in a beautiful ceremony.Ajith was registeredas a Diamond Member, whereas Priyanka held a basic membership. </p></td>
+              </tr>
+              <tr>
+                <td align="center"><strong><a href="#">Read More</a></strong></td>
+              </tr>
+            </table>
+          </div>
+          <div class="foot"></div>
+        </div>
+        <div class="innerleft_banner"><a href="#"><img src="images/innerleft_banner.jpg" width="228" height="399" alt="advertisement" /></a></div>
+      </div>
+     
+      <div id="inner_left_footer"></div>
+    </div>
+    <div id="inner_right">
+      <!-- BUSINESS PAGE CONTENT STARTS HERE ############################################ -->
+      <a name="top" id="top"></a>
+      <div class="profile_block">
+        <div class="header">
+        
+          <h2 class="float_left title">
+          <span class="black" style="color:#333;">
+          Upgrade</span> to Premium Membership <a href="#" id="btnBenifits" class="black" style="color:#333;">(What are the benefits?)</a></h2>
+        </div>
+        <div class="body">
+        <div style="text-align:center;">
+          <h2 style="line-height:24px;" ><strong>Welcome  to NuminousMatch’s Payment Page</strong><br />
+            <strong>Your  next step could change your Life!</strong><br /></h2>
+            <h3><strong>Become  a Premium Member</strong> <strong>to  have all the benefits of contacting other members on a personalized level</strong><br />
+            </h3>
+        </div>
+       
+<br />
+        </div>
+      </div>
+      <div class="profiledetails">
+        
+        <div id="upgradeCompare" style="display:none;">
+            <h2><span> <strong><br />
+            Compare Premium Member Benefits vs. Basic Member </strong></span><br />
+          </h2>
+             <table width="100%" border="0" cellspacing="5" cellpadding="5">
+            <tr>
+              <td width="80" height="80"><img src="images/icons/prize_winner_64.png" width="64" height="64" hspace="10" vspace="10" align="left" /></td>
+              <td> <strong>Numinous Basic membership</strong> is a FREE membership that enables you to try out our system and see how it works. You can search, browse other member's profiles, and express your interest. </td>
+            </tr>
+          </table>
+           <div style=" padding:10px; border: dotted 1px #a50050;">
+             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="ss_webhosting">
+              <tbody><tr class="noborders">
+          <th align="left" >&nbsp;</th>
+          <th class="heading_plans1">Numinous </th>
+          <th class="heading_plans2">Numinous</th>
+          <th class="heading_plans4">Numinous</th>
+          <th class="heading_plans5">Numinous</th>
+        </tr>
+        <tr class="noborders">
+          <th style="background-color:#fad3a6; color:#454545; font-weight:bold; font-size:16px; text-align:left;">Features</th>
+          <th class="prices_plans1">Silver</th>
+          <th class="prices_plans2">Gold</th>
+          <th class="prices_plans4">Diamond</th>
+          <th class="prices_plans5">Basic</th>
+        </tr>
+        <tr class="alt">
+          <td class="features">My Account Home</td>
+          <td class="plans1"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans2"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_yes">&nbsp;<span></td>
+        </tr>
+        <tr>
+          <td class="features">Search Profiles</td>
+           <td class="plans1"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans2"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_yes">&nbsp;<span></td>
+        </tr>
+        <tr class="alt">
+          <td class="features">View Contact</td>
+          <td class="plans1"><span class="status_yes">&nbsp;<span> </td>
+          <td class="plans2"><span class="status_yes">&nbsp;<span> </td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_no">&nbsp;<span></td>
+        </tr>
+        <tr>
+          <td class="features">View Horoscope</td>
+            <td class="plans1"><span class="status_yes">&nbsp;<span> </td>
+          <td class="plans2"><span class="status_yes">&nbsp;<span> </td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_no">&nbsp;<span></td>
+        </tr>
+        <tr class="alt">
+          <td class="features">View Photo</td>
+           <td class="plans1"><span class="status_yes">&nbsp;<span> </td>
+          <td class="plans2"><span class="status_yes">&nbsp;<span> </td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_yes">&nbsp;<span></td>
+        </tr>
+        <tr>
+          <td class="features">View Video</td>
+            <td class="plans1"><span class="status_yes">&nbsp;<span> </td>
+          <td class="plans2"><span class="status_yes">&nbsp;<span> </td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_yes">&nbsp;<span></td>
+        </tr>
+        <tr class="alt">
+          <td class="features bestvalue">Express Interest</td>
+         <td class="plans1"><span class="status_yes">&nbsp;<span> </td>
+          <td class="plans2"><span class="status_yes">&nbsp;<span> </td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_yes">&nbsp;<span></td>
+        </tr>
+        <tr>
+          <td class="features">Personalised email</td>
+           <td class="plans1"><span class="status_yes">&nbsp;<span> </td>
+          <td class="plans2"><span class="status_yes">&nbsp;<span> </td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_no">&nbsp;<span></td>
+        </tr>
+        <tr class="alt">
+          <td class="features">Early Bird Alerts</td>
+          <td class="plans1"><span class="status_yes">&nbsp;<span> </td>
+          <td class="plans2"><span class="status_yes">&nbsp;<span> </td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_yes">&nbsp;<span></td>
+          </tr>
+        <tr>
+          <td class="features">Chat Online</td>
+           <td class="plans1"><span class="status_yes">&nbsp;<span> </td>
+          <td class="plans2"><span class="status_yes">&nbsp;<span> </td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_no">&nbsp;<span></td>
+          </tr>
+          <tr class="alt">
+          <td class="features">Who's Online </td>
+          <td class="plans1"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans2"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_yes">&nbsp;<span></td>
+        </tr>
+        <tr>
+          <td class="features">Auto Match </td>
+           <td class="plans1"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans2"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_yes">&nbsp;<span></td>
+        </tr>
+        <tr class="alt">
+          <td class="features">Password Protect Photo </td>
+          <td class="plans1"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans2"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_yes">&nbsp;<span></td>
+        </tr>
+        <tr>
+          <td class="features">Password Protect Horoscope </td>
+           <td class="plans1"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans2"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_yes">&nbsp;<span></td>
+        </tr>
+        <tr class="alt">
+          <td class="features">Password Protect Video </td>
+          <td class="plans1"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans2"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_yes">&nbsp;<span></td>
+        </tr>
+        <tr>
+          <td class="features">SMS Alerts </td>
+           <td class="plans1"><span class="status_no">&nbsp;<span></td>
+          <td class="plans2"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_no">&nbsp;<span></td>
+        </tr>
+        <tr class="alt">
+          <td class="features">Featured Member </td>
+          <td class="plans1"><span class="status_no">&nbsp;<span></td>
+          <td class="plans2"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_no">&nbsp;<span></td>
+        </tr>
+        <tr>
+          <td class="features">High Support </td>
+           <td class="plans1"><span class="status_no">&nbsp;<span></td>
+          <td class="plans2"><span class="status_no">&nbsp;<span></td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_no">&nbsp;<span></td>
+        </tr>
+        <tr class="alt">
+          <td class="features">Priority Display </td>
+          <td class="plans1"><span class="status_no">&nbsp;<span></td>
+          <td class="plans2"><span class="status_no">&nbsp;<span></td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_no">&nbsp;<span></td>
+        </tr>
+        <tr>
+          <td class="features">Match Horoscope Online</td>
+           <td class="plans1"><span class="status_no">&nbsp;<span></td>
+          <td class="plans2"><span class="status_no">&nbsp;<span></td>
+          <td class="plans4"><span class="status_yes">&nbsp;<span></td>
+          <td class="plans5"><span class="status_no">&nbsp;<span></td>
+        </tr>
+       
+    </tbody></table>
+             <h3><strong><a href="#" class="bold">and More&gt;&gt;&gt;</a></strong></h3>
+             
+               <div style="margin-left:auto; margin-right:auto; width:200px; height:30px;">
+             <a href="#" class="button-small square-orange uppercase" id="btnUpgrade" ><span></span>SHOW UPGRADE PLANS </a>
+         </div>
+          </div> 
+        </div>
+        
+        
+        <div id="upgrade">
+        <h2><strong>Step 1 - Choose the Premium Membership Plan</strong></h2>
+        <hr />
+        <br />
+ <div style="margin-left:auto; margin-right:auto; width:250px; height:30px;">
+             <a href="#" id="btnCompare" class="button-small square-orange uppercase" ><span></span>Compare Membership Plan</a>
+         </div>
+         <br />
+        <table width="100%" border="0" cellspacing="10" cellpadding="10">
+  <tr>
+    <td width="33%" align="center" valign="top">
+    
+    <table width="100%"  class="ss_webhosting">
+    <tr>
+    <th class="heading_plans1">Numinous </th>
+    </tr>
+    <tr> <th class="prices_plans1"><p>SILVER</p></th></tr>
+   <tr class="alt">
+         <td height="140" class="plans1">50 Verified Profiles<br />
+           <h2 ><strong style="font-size:22px;">MYR. 600.00 /</strong> month
+           
+           </h2>
+          
+           <p style="display:block; width:90px; padding:5px; margin:5px auto; background-color:#909ba9; color:#fff; font-size:16px; font-weight:bold;">
+             <label>
+               <input type="radio" style="outline:none; border:none;" name="memberPlan" value="silver" id="RadioGroup1_0" />
+               3 Months</label>
+           </p>
+<p>1 Payment of <strong>MYR.1,800.00</strong></p></td>
+        </tr>
+   
+    </table>
+    
+    
+    </td>
+    <td width="33%" align="center" valign="top">
+     <table width="100%"  class="ss_webhosting">
+    <tr>
+    <th class="heading_plans2">Numinous </th>
+    </tr>
+    <tr> <th class="prices_plans2"><p> GOLD   </p></th></tr>
+        <tr class="alt">
+         <td height="140" class="plans2">
+          
+          
+          105 Verified Profiles<br />
+           <h2 ><strong style="font-size:22px;">MYR. 575.00/</strong> month
+           
+           </h2>
+          
+           <p style="display:block; width:90px; padding:5px; margin:5px auto; background-color:#e88c00; color:#fff; font-size:16px; font-weight:bold;">
+             <label>
+               <input type="radio" style="outline:none; border:none;" name="memberPlan" value="silver" id="RadioGroup1_0" />
+               6 Months</label>
+           </p>
+<p>1 Payment of <strong>MYR.3,450.00</strong></p>
+          
+          
+          
+          </td>
+        </tr>
+   
+    </table>
+    
+    </td>
+    <td align="center" valign="top">
+         <table width="100%"  class="ss_webhosting">
+    <tr>
+    <th class="heading_plans4">Numinous </th>
+    </tr>
+    <tr> <th class="prices_plans4"><p> DIAMOND   </p></th></tr>
+   <tr class="alt">
+         <td height="140" class="plans4">
+           
+           
+             225 Verified Profiles<br />
+           <h2 ><strong style="font-size:22px;">MYR. 490.00/</strong> month
+           
+           </h2>
+          
+           <p style="display:block; width:90px; padding:5px; margin:5px auto; background-color:#de036d; color:#fff; font-size:16px; font-weight:bold;">
+             <label>
+               <input type="radio" style="outline:none; border:none;" name="memberPlan" value="silver" id="RadioGroup1_0" />
+               1 Year</label>
+           </p>
+<p>1 Payment of <strong>MYR.5,880.00</strong><br />
+  <strong style="color:#093">  BEST VALUE</strong></p>
+           
+           
+           
+           </td>
+        </tr>
+   
+    </table>
+    
+    </td>
+  </tr>
+</table>
+
+		</div>
+
+</div>
+      <br />
+      
+      <div class="profiledetails">
+        <h2><strong>Traditional Matchmaking Process<br />
+        </strong></h2>
+        <hr />
+
+        <table width="100%" border="0" cellspacing="10" cellpadding="10">
+  <tr>
+    <td width="33%" align="left" valign="top">With a fast paced work life, it is not easy to find a life partner. We'll help you to find your ideal match based on your selection criteria and specific instructions. Test the waters, register and find that someone special to share your life.   This service is available in Kerala State only for Malayalees.<br /></td>
+    </tr>
+  <tr>
+    <td align="left" valign="top">
+         <p style="display:block; text-align:center; width:50%; padding:5px; margin:5px auto; background-color:#fad3a6; color:#454545; font-size:16px; font-weight:bold;">
+             <label>
+               <input type="checkbox" style="outline:none; border:none;" name="traditionalMatch" value="silver" id="RadioGroup1_0" /> 
+               MYR. 16,000.00 -   3 Months Plan </label>
+           </p>
+    
+    </td>
+  </tr>
+  <tr>
+    <td align="right" valign="top"><strong><a href="#" class="link">More</a></strong></td>
+  </tr>
+        </table>
+
+
+
+</div>
+      
+      <br />
+      
+      <div class="profiledetails">
+        <h2><strong>Add on Special Features to Your Membership <br />
+        </strong></h2>
+        <hr />
+        <table width="100%" border="0" cellspacing="5" cellpadding="5">
+          <tr>
+            <td width="160" rowspan="2"><img src="images/astro.png" width="150" height="150" /></td>
+            
+          </tr>
+          <tr>
+            <td align="center" rowspan="2" >
+            <h2><strong>AstroMatch - Online Horoscope Matching</strong></h2>
+            <p style="display:block; text-align:center; width:70%; padding:5px; margin:5px auto; background-color:#fad3a6; color:#454545; font-size:16px; font-weight:bold;">
+                <label>
+                  <input type="checkbox" style="outline:none; border:none;" name="RadioGroup1_" value="silver" id="RadioGroup1_" />
+                  MYR.1,050.00 for Numinous Diamond 1 Year  </label>
+            </p>
+            <strong  class="float_right"><a href="#" class="link">More</a></strong></td>
+          </tr>
+        </table>
+        <hr />
+            <table width="100%" border="0" cellspacing="5" cellpadding="5">
+          <tr>
+            <td width="160" rowspan="2"><img src="images/profile-smasher.jpg" width="150" height="150" /></td>
+            
+          </tr>
+          <tr>
+            <td align="center" rowspan="2" >
+            <h2><strong>Profile Smasher - Get better visibility with a special profile ad.</strong></h2>
+            <p style="display:block; text-align:center; width:70%; padding:5px; margin:5px auto; background-color:#fad3a6; color:#454545; font-size:16px; font-weight:bold;">
+                <label>
+                  <input type="checkbox" style="outline:none; border:none;" name="RadioGroup1_" value="silver" id="RadioGroup1_" />
+                 MYR. 1,200.00 for 3 months </label>
+            </p>
+            <strong  class="float_right"><a href="#" class="link">More</a></strong></td>
+          </tr>
+        </table>
+        
+        <hr />
+        <table width="100%" border="0" cellspacing="5" cellpadding="5">
+          <tr>
+            <td width="160" rowspan="2"><img src="images/promote.jpg" width="150" height="150" /></td>
+            
+          </tr>
+          <tr>
+            <td align="center" rowspan="2" >
+            <h2><strong>Match Promoter - Customized Email and SMS<br /> 
+            Improve Response with Email and SMS</strong></h2>
+            <p style="display:block; text-align:center; width:70%; padding:5px; margin:5px auto; background-color:#fad3a6; color:#454545; font-size:16px; font-weight:bold;">
+                <label>
+                  <input type="checkbox" style="outline:none; border:none;" name="RadioGroup1_" value="silver" id="RadioGroup1_" />
+                 MYR. 1,500.00 </label>
+            </p>
+            <strong  class="float_right"><a href="#" class="link">More</a></strong></td>
+          </tr>
+        </table>
+        
+       
+      </div>
+      <br />
+      
+      <div class="profiledetails">
+        <h2><strong>Your Cart<br />
+        </strong></h2>
+        <hr />
+         <table width="100%" class="tbl_cart">
+         <tr>
+           <th width="10%">Remove.</th>
+           <th>You have Choosen</th>
+           <th width="20%">Total (Rupees)</th>
+         </tr>
+         <tr>
+           <td align="center"><img src="images/icons/cancel.png" width="16" height="16" /></td>
+           <td>Membership: Numinous Gold</td>
+           <td align="right"><strong>575.00</strong></td>
+         </tr>
+         <tr align="center" class="subsection">
+         <th colspan="3" align="left">Add-on Features</th>
+           </tr>
+         <tr>
+           <td align="center"><img src="images/icons/cancel.png" width="16" height="16" /></td>
+           <td>AstroMatch - Online Horoscope Matching</td>
+           <td align="right"><strong>1050.00</strong></td>
+         </tr>
+         <tr>
+           <td align="center"><img src="images/icons/cancel.png" width="16" height="16" /></td>
+           <td>Profile Smasher - Get better visibility with a special profile ad (3 Months)</td>
+           <td align="right"><strong>1200.00</strong></td>
+         </tr>
+             <tr>
+           <td align="center"><img src="images/icons/cancel.png" width="16" height="16" /></td>
+           <td>Match Promoter - Customized Email and SMS
+Improve Response with Email and SMS</td>
+           <td align="right"><strong>1500.00</strong></td>
+         </tr>
+         <tr class="footer">
+           <th>&nbsp;</th>
+           <th>Grand Total</th>
+           <th align="right">INR: 4325.00</th>
+         </tr>
+        </table>
+         <br />
+         <div style="margin-left:auto; margin-right:auto; width:150px; height:30px;">
+             <a href="paypal.html" class="button-small square-orange uppercase" ><span></span>Continue  </a>
+         </div>
+<br />
+      </div>
+
+        <br />
+        <strong  class="float_right"><a href="#" class="link">I will subscribe later, Go back to Home Page</a></strong><br />
+        <br />
+      
+      
+      
+      
+      
+      
+      <!-- BUSINESS PAGE CONTENT ends HERE ############################################ -->
+    </div>
+  </div>
+<!-- CONTENT AREA ENDS HERE ###################################################  -->  
+
+<!-- FOOTER STARTS HERE ###################################################  -->
+  <div id="footer">
+  
+  
+<!-- FOOTER SECTION-1 STARTS HERE ###################################################  -->
+  <div id="sec1">
+    <div id="sec1_left">
+               <h2>Security Assured</h2>
+           <table width="100%" border="0" cellspacing="0" cellpadding="0"  style="margin-top:5px;">
+             <tr>
+               <td width="150" align="center"><img src="images/seal.png" width="98" height="102" /></td>
+               <td valign="top">
+               <ul class="ddlist list-lock">
+            <li>Only approved and moderated members appear in NM</li>
+            <li>All payments are processed within a secure transaction environmentappear in NM</li>
+            <li>All the information you pass is encrypted to maintain total securityappear in NM</li>
+          </ul>
+               <a href="#" class="link">Read More</a></td>
+             </tr>
+           </table>
+    </div>
+    
+    
+    <div id="sec1_right">
+             <h2>Latest News</h2>
+           <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:10px;">
+             <tr>
+               <td width="150" align="center"><a href="#"><img src="images/news_img1.jpg" width="91" height="91" class="img_whiteBorder" /></a></td>
+               <td>Get wed in style. Just leave it to Numinous Moments to make your great moment the best of them all. We take care of everything from the invite to venue arrangements, attending to guests' needs, giveaways and party. Our professionals help you choose from the options available for each aspect of the wedding. <br />
+                 <a href="#" class="link">Read More</a></td>
+             </tr>
+           </table>  
+    </div>
+  
+  
+  </div>
+  <div id="sec2">
+    <ul class="vlist">
+      <li class="head">Need Help?</li>
+      <li><a href="#">24x7 Live Help</a></li>
+      <li> <a href="#">FAQs</a></li>
+      <li><a href="#"> Report Misuse</a></li>
+      <li><a href="#"> Contact Us</a></li>
+      <li><a href="#"> Site Map</a></li>
+    </ul>
+    <ul class="vlist">
+      <li class="head">Other Services</li>
+      <li><a href="#">Wedding Planning</a></li>
+      <li><a href="#">Wedding Directory</a></li>
+      <li><a href="#">Matrimonial Sites</a></li>
+      <li><a href="#"> Marriage Tags</a></li>
+    </ul>
+    <ul class="vlist">
+      <li class="head">Privacy &amp; You</li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms of Use</a></li>
+      <li><a href="#">Security Tips</a></li>
+    </ul>
+    <ul class="vlist">
+      <li class="head">Company</li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">NM Blog</a></li>
+      <li><a href="#">Affiliate Program</a></li>
+      <li><a href="#">Awards</a></li>
+      <li><a href="#">Advertise With Us</a></li>
+      <li><a href="#">List Your Site</a></li>
+      <li><a href="#">Work With Us</a></li>
+    </ul>
+    <ul class="vlist">
+      <li class="head">Our Brands</li>
+      <li><a href="#">JK International</a></li>
+      <li><a href="#">JK Tours</a></li>
+      <li><a href="#">JK India Property</a></li>
+      <li><a href="#">Medical Base Tour</a></li>
+      <li><a href="#">Numinous Moments</a></li>
+      <li><a href="#">Privilege Match</a></li>
+    </ul>
+    <div id="footer_quicklinks">
+    <a href="#"><span><img src="images/icons/note_accept_24.png" width="24" height="24" /></span>Register with us FREE </a>
+    <a href="#"><span><img src="images/icons/search_businesswoman_24.png" width="24" height="24" /></span>Search  Profiles </a>
+    <a href="#"><span><img src="images/icons/star_ful_24.png" width="24" height="24" /></span> Upgrade Membership</a>
+    </div>
+  </div>
+  <div id="sec3">
+    <table width="" height="32" border="0" cellspacing="0" cellpadding="0" class="float_left">
+      <!--<tr>
+        <td><span >Copyright © 1996-2011 phpmatrimonialscript.in - All Rights Reserved.</span></td>
+      </tr>-->
+    </table>
+    <table width="" border="0" cellspacing="0" cellpadding="0" class="float_right">
+      <tr>
+        <td width="80">Connect Us on </td>
+        <td width="38"><a href="#"><img src="images/icons/fb.png" /></a></td>
+        <td><a href="#"><img src="images/icons/tw.png" /></a></td>
+      </tr>
+    </table>
+  </div>
+  </div>
+<!-- FOOTER ENDS HERE ###################################################  -->    
+
+
+
+</div>
+</body>
+</html>

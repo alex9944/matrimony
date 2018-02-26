@@ -1,0 +1,34 @@
+# For security reasons, Option followsymlinks cannot be overridden.
+#Options +FollowSymlinks 
+Options +SymLinksIfOwnerMatch
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+ 
+RewriteRule ^faq.php faq.php [QSA,L]
+
+RewriteRule ^sitemap.php innerpage.php?id=5 [QSA,L]
+RewriteRule ^weddingplanning.php innerpage.php?id=22 [QSA,L]
+RewriteRule ^weddingdirectory.php innerpage.php?id=23 [QSA,L]
+RewriteRule ^matrimonialsites.php innerpage.php?id=24 [QSA,L]
+RewriteRule ^marriagetags.php innerpage.php?id=25 [QSA,L]
+RewriteRule ^securitytips.php innerpage.php?id=28 [QSA,L]
+
+RewriteRule ^nmblog.php innerpage.php?id=30 [QSA,L]
+RewriteRule ^affiliateprogram.php innerpage.php?id=31 [QSA,L]
+RewriteRule ^awards.php innerpage.php?id=32 [QSA,L]
+RewriteRule ^advertisewithus.php innerpage.php?id=33 [QSA,L]
+RewriteRule ^listyoursite.php innerpage.php?id=34 [QSA,L]
+RewriteRule ^workwithus.php innerpage.php?id=35 [QSA,L]
+RewriteRule ^medicalbasetour.php innerpage.php?id=39 [QSA,L]
+RewriteRule ^numinousmoments.php innerpage.php?id=40 [QSA,L]
+RewriteRule ^privilegematch.php innerpage.php?id=41 [QSA,L]
+RewriteRule ^why_numinous_match.php innerpage.php?id=43 [QSA,L]
+RewriteRule ^site_guide.php site_tour/site_tour.php [QSA,L]
+
+
+RewriteRule ^corporate_info.php innerpage.php?id=8 [QSA,L]
+RewriteRule ^quick_facts.php innerpage.php?id=10 [QSA,L]
+RewriteRule ^social_and_cultural_support_activities.php innerpage.php?id=11 [QSA,L]
+RewriteRule ^solutions.php innerpage.php?id=13 [QSA,L] 
+RewriteRule ^securityassured.php innerpage.php?id=44 [QSA,L]
